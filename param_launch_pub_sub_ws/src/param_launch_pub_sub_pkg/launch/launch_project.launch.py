@@ -8,7 +8,13 @@ def generate_launch_description():
             package="param_launch_pub_sub_pkg",
             executable="rpm_pub",
             name="rpm_pub_node",
-            parameters=[{"rpm_val":5.0}, {"wheel_radius":40.0}]
+            parameters=[{"rpm_val":5.0}]
+        ),
+        Node(
+            package="param_launch_pub_sub_pkg",
+            executable="speed_calc",
+            name="speed_calc_node",
+            parameters=[{"wheel_radius":10/100}]
         ),
         ExecuteProcess(cmd=['ros2','topic', 'echo', '/speed'],
                        output='screen')
