@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg
+[0.054s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.250s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.267s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.310s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.324s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.449s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.453s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.527s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.545s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.647s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.665s] CMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.665s]   ament_target_dependencies() the passed package name 'speed_calc' was not
+[0.665s]   found before
+[0.665s] Call Stack (most recent call first):
+[0.665s]   CMakeLists.txt:18 (ament_target_dependencies)
+[0.665s] 
+[0.665s] 
+[0.665s] -- Configuring incomplete, errors occurred!
+[0.672s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg

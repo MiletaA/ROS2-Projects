@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000050] (pub_sub_pkg) JobQueued: {'identifier': 'pub_sub_pkg', 'dependencies': OrderedDict()}
+[0.000463] (pub_sub_pkg) JobStarted: {'identifier': 'pub_sub_pkg'}
+[0.005688] (pub_sub_pkg) JobProgress: {'identifier': 'pub_sub_pkg', 'progress': 'cmake'}
+[0.006198] (pub_sub_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,7918,1', 'USER': 'ubuntu', 'NVIM_LOG_FILE': '/home/ubuntu/.local/state/nvim/log', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src', 'TERM_PROGRAM_VERSION': '3.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2620', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'VIM': '/usr/local/share/nvim', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'VIMRUNTIME': '/usr/local/share/nvim/runtime', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'tmux-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2393,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2393', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ecd65502_e837_4b65_aae4_1f2635e07430', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O5LK42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.153', 'TERM_PROGRAM': 'tmux', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'MYVIMRC': '/home/ubuntu/.config/nvim/init.lua', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/ubuntu/.tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%7', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.016277] (pub_sub_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099887] (-) TimerEvent: {}
+[0.173845] (pub_sub_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.178876] (pub_sub_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.199640] (pub_sub_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.199943] (-) TimerEvent: {}
+[0.206902] (pub_sub_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.215841] (pub_sub_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.226185] (pub_sub_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.275087] (pub_sub_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.276116] (pub_sub_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300137] (-) TimerEvent: {}
+[0.325822] (pub_sub_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.374263] (pub_sub_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.390366] (pub_sub_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.400314] (-) TimerEvent: {}
+[0.468970] (pub_sub_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.469107] (pub_sub_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.469164] (pub_sub_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.469712] (pub_sub_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.470561] (pub_sub_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.470640] (pub_sub_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.471135] (pub_sub_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.473039] (pub_sub_pkg) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.490690] (pub_sub_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.493840] (pub_sub_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg\n'}
+[0.499347] (pub_sub_pkg) CommandEnded: {'returncode': 0}
+[0.500154] (pub_sub_pkg) JobProgress: {'identifier': 'pub_sub_pkg', 'progress': 'build'}
+[0.500171] (pub_sub_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,7918,1', 'USER': 'ubuntu', 'NVIM_LOG_FILE': '/home/ubuntu/.local/state/nvim/log', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src', 'TERM_PROGRAM_VERSION': '3.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2620', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'VIM': '/usr/local/share/nvim', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'VIMRUNTIME': '/usr/local/share/nvim/runtime', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'tmux-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2393,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2393', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ecd65502_e837_4b65_aae4_1f2635e07430', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O5LK42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.153', 'TERM_PROGRAM': 'tmux', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'MYVIMRC': '/home/ubuntu/.config/nvim/init.lua', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/ubuntu/.tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%7', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.500383] (-) TimerEvent: {}
+[0.544223] (pub_sub_pkg) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o\n'}
+[0.544376] (pub_sub_pkg) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o\n'}
+[0.600565] (-) TimerEvent: {}
+[0.700804] (-) TimerEvent: {}
+[0.800986] (-) TimerEvent: {}
+[0.901228] (-) TimerEvent: {}
+[1.001480] (-) TimerEvent: {}
+[1.101751] (-) TimerEvent: {}
+[1.202003] (-) TimerEvent: {}
+[1.302246] (-) TimerEvent: {}
+[1.402506] (-) TimerEvent: {}
+[1.502765] (-) TimerEvent: {}
+[1.603022] (-) TimerEvent: {}
+[1.703284] (-) TimerEvent: {}
+[1.803538] (-) TimerEvent: {}
+[1.903797] (-) TimerEvent: {}
+[2.004051] (-) TimerEvent: {}
+[2.104300] (-) TimerEvent: {}
+[2.204565] (-) TimerEvent: {}
+[2.304825] (-) TimerEvent: {}
+[2.405095] (-) TimerEvent: {}
+[2.505364] (-) TimerEvent: {}
+[2.605627] (-) TimerEvent: {}
+[2.652616] (pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp: In constructor \xe2\x80\x98SpeedCalcNode::SpeedCalcNode()\xe2\x80\x99:\n'}
+[2.652806] (pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:9:13: error: \xe2\x80\x98rpm_subscription_\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98rmw_subscription_t\xe2\x80\x99?\n'}
+[2.652870] (pub_sub_pkg) StderrLine: {'line': b'    9 |             rpm_subscription_ = this->create_subscription<std_msgs::msg::Float64>(\n'}
+[2.652922] (pub_sub_pkg) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~\n'}
+[2.652971] (pub_sub_pkg) StderrLine: {'line': b'      |             rmw_subscription_t\n'}
+[2.653019] (pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:11:13: error: expected unqualified-id before \xe2\x80\x98)\xe2\x80\x99 token\n'}
+[2.653070] (pub_sub_pkg) StderrLine: {'line': b'   11 |             );\n'}
+[2.653117] (pub_sub_pkg) StderrLine: {'line': b'      |             ^\n'}
+[2.656931] (pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp: In constructor \xe2\x80\x98RpmPubNode::RpmPubNode()\xe2\x80\x99:\n'}
+[2.657091] (pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp:14:20: error: invalid operands of types \xe2\x80\x98<unresolved overloaded function type>\xe2\x80\x99 and \xe2\x80\x98const char [27]\xe2\x80\x99 to binary \xe2\x80\x98operator<<\xe2\x80\x99\n'}
+[2.657166] (pub_sub_pkg) StderrLine: {'line': b'   14 |         std::count << "RPM Publisher Node Running" << std:endl;\n'}
+[2.657222] (pub_sub_pkg) StderrLine: {'line': b'      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.657275] (pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp:14:58: error: found \xe2\x80\x98:\xe2\x80\x99 in nested-name-specifier, expected \xe2\x80\x98::\xe2\x80\x99\n'}
+[2.657329] (pub_sub_pkg) StderrLine: {'line': b'   14 |         std::count << "RPM Publisher Node Running" << std:endl;\n'}
+[2.657382] (pub_sub_pkg) StderrLine: {'line': b'      |                                                          ^\n'}
+[2.657435] (pub_sub_pkg) StderrLine: {'line': b'      |                                                          ::\n'}
+[2.662396] (pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:12:13: error: \xe2\x80\x98speed_publisher_\xe2\x80\x99 was not declared in this scope\n'}
+[2.662542] (pub_sub_pkg) StderrLine: {'line': b'   12 |             speed_publisher_ = this->create_publisher<std_msgs::msg::Float64>("speed", 10); //initialization of var\n'}
+[2.662605] (pub_sub_pkg) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~\n'}
+[2.681250] (pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp: In member function \xe2\x80\x98void SpeedCalcNode::calculate_and_pub_speed(const std_msgs::msg::Float64&) const\xe2\x80\x99:\n'}
+[2.681421] (pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:19:13: error: \xe2\x80\x98speed_publisher_\xe2\x80\x99 was not declared in this scope\n'}
+[2.681484] (pub_sub_pkg) StderrLine: {'line': b'   19 |             speed_publisher_->publisher(speed_msg);\n'}
+[2.681566] (pub_sub_pkg) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~\n'}
+[2.705751] (-) TimerEvent: {}
+[2.805909] (-) TimerEvent: {}
+[2.906092] (-) TimerEvent: {}
+[3.006302] (-) TimerEvent: {}
+[3.106498] (-) TimerEvent: {}
+[3.206690] (-) TimerEvent: {}
+[3.306892] (-) TimerEvent: {}
+[3.407086] (-) TimerEvent: {}
+[3.507272] (-) TimerEvent: {}
+[3.597394] (pub_sub_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/speed_calc.dir/build.make:76: CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o] Error 1\n'}
+[3.597710] (pub_sub_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/speed_calc.dir/all] Error 2\n'}
+[3.597857] (pub_sub_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.607371] (-) TimerEvent: {}
+[3.690740] (pub_sub_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rpm_pub.dir/build.make:76: CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o] Error 1\n'}
+[3.690876] (pub_sub_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rpm_pub.dir/all] Error 2\n'}
+[3.691005] (pub_sub_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.692498] (pub_sub_pkg) CommandEnded: {'returncode': 2}
+[3.700852] (pub_sub_pkg) JobEnded: {'identifier': 'pub_sub_pkg', 'rc': 2}
+[3.707496] (-) TimerEvent: {}
+[3.711277] (-) EventReactorShutdown: {}

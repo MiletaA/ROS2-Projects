@@ -1,0 +1,54 @@
+[0.007s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg -- -j8 -l8
+[0.025s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.188s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.193s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.217s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.225s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.293s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.294s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.342s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.389s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.400s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.474s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.474s] -- Configured cppcheck include dirs: 
+[0.474s] -- Configured cppcheck exclude dirs and/or files: 
+[0.475s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.475s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.477s] -- Added test 'lint_cmake' to check CMake code style
+[0.478s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.483s] -- Added test 'uncrustify' to check C / C++ code style
+[0.483s] -- Configured uncrustify additional arguments: 
+[0.484s] -- Added test 'xmllint' to check XML markup files
+[0.485s] -- Configuring done (0.5s)
+[0.494s] -- Generating done (0.0s)
+[0.498s] -- Build files have been written to: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg
+[0.534s] [ 50%] Building CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o
+[0.534s] [ 50%] Building CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o
+[4.324s] [ 75%] Linking CXX executable rpm_pub
+[4.472s] [ 75%] Built target rpm_pub
+[6.602s] [100%] Linking CXX executable speed_calc
+[6.794s] [100%] Built target speed_calc
+[6.802s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg -- -j8 -l8
+[6.810s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg
+[6.815s] -- Install configuration: ""
+[6.816s] -- Execute custom install script
+[6.816s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/lib/pub_sub_pkg/rpm_pub
+[6.823s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/lib/pub_sub_pkg/speed_calc
+[6.830s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/ament_index/resource_index/package_run_dependencies/pub_sub_pkg
+[6.837s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/ament_index/resource_index/parent_prefix_path/pub_sub_pkg
+[6.844s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/environment/ament_prefix_path.sh
+[6.850s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/environment/ament_prefix_path.dsv
+[6.856s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/environment/path.sh
+[6.863s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/environment/path.dsv
+[6.869s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/local_setup.bash
+[6.876s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/local_setup.sh
+[6.882s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/local_setup.zsh
+[6.889s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/local_setup.dsv
+[6.895s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/package.dsv
+[6.902s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/ament_index/resource_index/packages/pub_sub_pkg
+[6.909s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/cmake/pub_sub_pkgConfig.cmake
+[6.915s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/cmake/pub_sub_pkgConfig-version.cmake
+[6.922s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/package.xml
+[6.929s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg

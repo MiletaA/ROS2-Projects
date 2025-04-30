@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000071] (param_launch_pub_sub_pkg) JobQueued: {'identifier': 'param_launch_pub_sub_pkg', 'dependencies': OrderedDict()}
+[0.000320] (param_launch_pub_sub_pkg) JobStarted: {'identifier': 'param_launch_pub_sub_pkg'}
+[0.005111] (param_launch_pub_sub_pkg) JobProgress: {'identifier': 'param_launch_pub_sub_pkg', 'progress': 'cmake'}
+[0.005545] (param_launch_pub_sub_pkg) JobProgress: {'identifier': 'param_launch_pub_sub_pkg', 'progress': 'build'}
+[0.006116] (param_launch_pub_sub_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,7480,4', 'USER': 'ubuntu', 'NVIM_LOG_FILE': '/home/ubuntu/.local/state/nvim/log', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '3.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2686', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'VIM': '/usr/local/share/nvim', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'VIMRUNTIME': '/usr/local/share/nvim/runtime', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'tmux-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2450,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2450', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d3accec5_727b_45e9_8f17_a54e370f5f1d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WJDY42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.134', 'TERM_PROGRAM': 'tmux', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'MYVIMRC': '/home/ubuntu/.config/nvim/init.lua', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/ubuntu/.tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%8', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.023977] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099888] (-) TimerEvent: {}
+[0.183960] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.189913] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.199982] (-) TimerEvent: {}
+[0.216849] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.226800] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.237979] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.251027] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300080] (-) TimerEvent: {}
+[0.307453] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.309413] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.363576] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.378979] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.397871] (param_launch_pub_sub_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400162] (-) TimerEvent: {}
+[0.458657] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.469187] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.500337] (-) TimerEvent: {}
+[0.545160] (param_launch_pub_sub_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.545294] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.545354] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.545801] (param_launch_pub_sub_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.546259] (param_launch_pub_sub_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.546323] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.546818] (param_launch_pub_sub_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.547526] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.554541] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.557889] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg\n'}
+[0.584749] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o\n'}
+[0.600429] (-) TimerEvent: {}
+[0.700571] (-) TimerEvent: {}
+[0.800711] (-) TimerEvent: {}
+[0.900870] (-) TimerEvent: {}
+[1.001115] (-) TimerEvent: {}
+[1.101363] (-) TimerEvent: {}
+[1.201591] (-) TimerEvent: {}
+[1.301760] (-) TimerEvent: {}
+[1.402015] (-) TimerEvent: {}
+[1.502183] (-) TimerEvent: {}
+[1.602370] (-) TimerEvent: {}
+[1.702547] (-) TimerEvent: {}
+[1.802784] (-) TimerEvent: {}
+[1.903038] (-) TimerEvent: {}
+[2.003208] (-) TimerEvent: {}
+[2.103361] (-) TimerEvent: {}
+[2.203519] (-) TimerEvent: {}
+[2.303691] (-) TimerEvent: {}
+[2.352279] (param_launch_pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:30:2: error: expected \xe2\x80\x98;\xe2\x80\x99 after class definition\n'}
+[2.352453] (param_launch_pub_sub_pkg) StderrLine: {'line': b'   30 | }\n'}
+[2.352518] (param_launch_pub_sub_pkg) StderrLine: {'line': b'      |  ^\n'}
+[2.352575] (param_launch_pub_sub_pkg) StderrLine: {'line': b'      |  ;\n'}
+[2.357951] (param_launch_pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp: In constructor \xe2\x80\x98RpmPubNode::RpmPubNode()\xe2\x80\x99:\n'}
+[2.358089] (param_launch_pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:14:19: error: \xe2\x80\x98class RpmPubNode\xe2\x80\x99 has no member named \xe2\x80\x98decalare_parameter\xe2\x80\x99; did you mean \xe2\x80\x98declare_parameter\xe2\x80\x99?\n'}
+[2.358141] (param_launch_pub_sub_pkg) StderrLine: {'line': b'   14 |             this->decalare_parameter<double>("rpm_val", RPM_DEFAULT_VALUE );\n'}
+[2.358186] (param_launch_pub_sub_pkg) StderrLine: {'line': b'      |                   ^~~~~~~~~~~~~~~~~~\n'}
+[2.358237] (param_launch_pub_sub_pkg) StderrLine: {'line': b'      |                   declare_parameter\n'}
+[2.358284] (param_launch_pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:14:38: error: expected primary-expression before \xe2\x80\x98double\xe2\x80\x99\n'}
+[2.358331] (param_launch_pub_sub_pkg) StderrLine: {'line': b'   14 |             this->decalare_parameter<double>("rpm_val", RPM_DEFAULT_VALUE );\n'}
+[2.358375] (param_launch_pub_sub_pkg) StderrLine: {'line': b'      |                                      ^~~~~~\n'}
+[2.365111] (param_launch_pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp: In member function \xe2\x80\x98void RpmPubNode::publish_rpm()\xe2\x80\x99:\n'}
+[2.365303] (param_launch_pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:22:19: error: \xe2\x80\x98class RpmPubNode\xe2\x80\x99 has no member named \xe2\x80\x98decalare_parameter\xe2\x80\x99; did you mean \xe2\x80\x98declare_parameter\xe2\x80\x99?\n'}
+[2.365368] (param_launch_pub_sub_pkg) StderrLine: {'line': b'   22 |             this->decalare_parameter("rpm_val", rpm_val_param_);\n'}
+[2.365415] (param_launch_pub_sub_pkg) StderrLine: {'line': b'      |                   ^~~~~~~~~~~~~~~~~~\n'}
+[2.365458] (param_launch_pub_sub_pkg) StderrLine: {'line': b'      |                   declare_parameter\n'}
+[2.365506] (param_launch_pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp: At global scope:\n'}
+[2.365550] (param_launch_pub_sub_pkg) StderrLine: {'line': b'/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:32:1: error: two or more data types in declaration of \xe2\x80\x98main\xe2\x80\x99\n'}
+[2.365594] (param_launch_pub_sub_pkg) StderrLine: {'line': b'   32 | int int main (int argc, char *argv[]) {\n'}
+[2.365636] (param_launch_pub_sub_pkg) StderrLine: {'line': b'      | ^~~\n'}
+[2.403867] (-) TimerEvent: {}
+[2.504216] (-) TimerEvent: {}
+[2.604396] (-) TimerEvent: {}
+[2.704569] (-) TimerEvent: {}
+[2.804799] (-) TimerEvent: {}
+[2.905049] (-) TimerEvent: {}
+[3.005296] (-) TimerEvent: {}
+[3.092849] (param_launch_pub_sub_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rpm_pub.dir/build.make:76: CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o] Error 1\n'}
+[3.093039] (param_launch_pub_sub_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rpm_pub.dir/all] Error 2\n'}
+[3.093152] (param_launch_pub_sub_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.094656] (param_launch_pub_sub_pkg) CommandEnded: {'returncode': 2}
+[3.101660] (param_launch_pub_sub_pkg) JobEnded: {'identifier': 'param_launch_pub_sub_pkg', 'rc': 2}
+[3.105356] (-) TimerEvent: {}
+[3.111953] (-) EventReactorShutdown: {}

@@ -1,0 +1,51 @@
+[0.006s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg -- -j8 -l8
+[0.024s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.184s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.190s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.217s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.227s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.251s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.309s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.363s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.379s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.398s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.458s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.469s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.545s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.545s] -- Configured cppcheck include dirs: 
+[0.545s] -- Configured cppcheck exclude dirs and/or files: 
+[0.546s] -- Added test 'lint_cmake' to check CMake code style
+[0.546s] -- Added test 'uncrustify' to check C / C++ code style
+[0.546s] -- Configured uncrustify additional arguments: 
+[0.547s] -- Added test 'xmllint' to check XML markup files
+[0.547s] -- Configuring done (0.5s)
+[0.554s] -- Generating done (0.0s)
+[0.558s] -- Build files have been written to: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg
+[0.585s] [ 50%] Building CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o
+[2.352s] /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:30:2: error: expected ‘;’ after class definition
+[2.352s]    30 | }
+[2.352s]       |  ^
+[2.352s]       |  ;
+[2.358s] /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp: In constructor ‘RpmPubNode::RpmPubNode()’:
+[2.358s] /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:14:19: error: ‘class RpmPubNode’ has no member named ‘decalare_parameter’; did you mean ‘declare_parameter’?
+[2.358s]    14 |             this->decalare_parameter<double>("rpm_val", RPM_DEFAULT_VALUE );
+[2.358s]       |                   ^~~~~~~~~~~~~~~~~~
+[2.358s]       |                   declare_parameter
+[2.358s] /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:14:38: error: expected primary-expression before ‘double’
+[2.358s]    14 |             this->decalare_parameter<double>("rpm_val", RPM_DEFAULT_VALUE );
+[2.358s]       |                                      ^~~~~~
+[2.365s] /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp: In member function ‘void RpmPubNode::publish_rpm()’:
+[2.365s] /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:22:19: error: ‘class RpmPubNode’ has no member named ‘decalare_parameter’; did you mean ‘declare_parameter’?
+[2.365s]    22 |             this->decalare_parameter("rpm_val", rpm_val_param_);
+[2.365s]       |                   ^~~~~~~~~~~~~~~~~~
+[2.365s]       |                   declare_parameter
+[2.365s] /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp: At global scope:
+[2.365s] /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:32:1: error: two or more data types in declaration of ‘main’
+[2.365s]    32 | int int main (int argc, char *argv[]) {
+[2.365s]       | ^~~
+[3.093s] gmake[2]: *** [CMakeFiles/rpm_pub.dir/build.make:76: CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o] Error 1
+[3.093s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rpm_pub.dir/all] Error 2
+[3.093s] gmake: *** [Makefile:146: all] Error 2
+[3.094s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg -- -j8 -l8

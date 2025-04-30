@@ -1,0 +1,21 @@
+[ 50%] Building CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o
+/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp: In constructor ‘RpmPubNode::RpmPubNode()’:
+/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:14:19: error: ‘class RpmPubNode’ has no member named ‘decalare_parameter’; did you mean ‘declare_parameter’?
+   14 |             this->decalare_parameter<double>("rpm_val", RPM_DEFAULT_VALUE );
+      |                   ^~~~~~~~~~~~~~~~~~
+      |                   declare_parameter
+/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:14:38: error: expected primary-expression before ‘double’
+   14 |             this->decalare_parameter<double>("rpm_val", RPM_DEFAULT_VALUE );
+      |                                      ^~~~~~
+/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp: In member function ‘void RpmPubNode::publish_rpm()’:
+/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:22:19: error: ‘class RpmPubNode’ has no member named ‘decalare_parameter’; did you mean ‘declare_parameter’?
+   22 |             this->decalare_parameter("rpm_val", rpm_val_param_);
+      |                   ^~~~~~~~~~~~~~~~~~
+      |                   declare_parameter
+/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp: At global scope:
+/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/rpm_pub.cpp:32:1: error: two or more data types in declaration of ‘main’
+   32 | int int main (int argc, char *argv[]) {
+      | ^~~
+gmake[2]: *** [CMakeFiles/rpm_pub.dir/build.make:76: CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rpm_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

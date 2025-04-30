@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1cfe2488120747a848cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "param_launch_pub_sub_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "param_launch_pub_sub_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-param_launch_pub_sub_pkg_uninstall-94bb17aeb2873911b6d9.json",
+					"name" : "param_launch_pub_sub_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rpm_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rpm_pub-ae0c15213f464f965293.json",
+					"name" : "rpm_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "speed_calc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-speed_calc-b2ea563907a44cd8908e.json",
+					"name" : "speed_calc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-757ee4d5f086dffbb9c6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg",
+		"source" : "/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

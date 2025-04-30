@@ -1,0 +1,29 @@
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp: In constructor ‘RpmPubNode::RpmPubNode()’:
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp:14:20: error: invalid operands of types ‘<unresolved overloaded function type>’ and ‘const char [27]’ to binary ‘operator<<’
+   14 |         std::count << "RPM Publisher Node Running" << std:endl;
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp:14:58: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   14 |         std::count << "RPM Publisher Node Running" << std:endl;
+      |                                                          ^
+      |                                                          ::
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp: In constructor ‘SpeedCalcNode::SpeedCalcNode()’:
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:9:13: error: ‘rpm_subscription_’ was not declared in this scope; did you mean ‘rmw_subscription_t’?
+    9 |             rpm_subscription_ = this->create_subscription<std_msgs::msg::Float64>(
+      |             ^~~~~~~~~~~~~~~~~
+      |             rmw_subscription_t
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:11:13: error: expected unqualified-id before ‘)’ token
+   11 |             );
+      |             ^
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:12:13: error: ‘speed_publisher_’ was not declared in this scope
+   12 |             speed_publisher_ = this->create_publisher<std_msgs::msg::Float64>("speed", 10); //initialization of var
+      |             ^~~~~~~~~~~~~~~~
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp: In member function ‘void SpeedCalcNode::calculate_and_pub_speed(const std_msgs::msg::Float64&) const’:
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:19:13: error: ‘speed_publisher_’ was not declared in this scope
+   19 |             speed_publisher_->publish(speed_msg); //publishing instead of returning, broadcasts it to the other node
+      |             ^~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/speed_calc.dir/build.make:76: CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/speed_calc.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/rpm_pub.dir/build.make:76: CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rpm_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

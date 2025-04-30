@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg -- -j8 -l8
+[0.056s] [ 50%] Building CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o
+[0.056s] [ 50%] Building CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o
+[1.913s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp: In constructor ‘SpeedCalcNode::SpeedCalcNode()’:
+[1.913s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:9:13: error: ‘rpm_subscription_’ was not declared in this scope; did you mean ‘rmw_subscription_t’?
+[1.914s]     9 |             rpm_subscription_ = this->create_subscription<std_msgs::msg::Float64>(
+[1.914s]       |             ^~~~~~~~~~~~~~~~~
+[1.914s]       |             rmw_subscription_t
+[1.914s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:11:13: error: expected unqualified-id before ‘)’ token
+[1.914s]    11 |             );
+[1.914s]       |             ^
+[1.921s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp: In constructor ‘RpmPubNode::RpmPubNode()’:
+[1.922s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp:14:20: error: invalid operands of types ‘<unresolved overloaded function type>’ and ‘const char [27]’ to binary ‘operator<<’
+[1.922s]    14 |         std::count << "RPM Publisher Node Running" << std:endl;
+[1.922s]       |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.922s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp:14:58: error: found ‘:’ in nested-name-specifier, expected ‘::’
+[1.922s]    14 |         std::count << "RPM Publisher Node Running" << std:endl;
+[1.922s]       |                                                          ^
+[1.922s]       |                                                          ::
+[1.922s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:12:13: error: ‘speed_publisher_’ was not declared in this scope
+[1.923s]    12 |             speed_publisher_ = this->create_publisher<std_msgs::msg::Float64>("speed", 10); //initialization of var
+[1.923s]       |             ^~~~~~~~~~~~~~~~
+[1.939s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp: In member function ‘void SpeedCalcNode::calculate_and_pub_speed(const std_msgs::msg::Float64&) const’:
+[1.939s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:19:13: error: ‘speed_publisher_’ was not declared in this scope
+[1.939s]    19 |             speed_publisher_->publish(speed_msg); //publishing instead of returning, broadcasts it to the other node
+[1.939s]       |             ^~~~~~~~~~~~~~~~
+[2.718s] gmake[2]: *** [CMakeFiles/speed_calc.dir/build.make:76: CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o] Error 1
+[2.718s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/speed_calc.dir/all] Error 2
+[2.718s] gmake[1]: *** Waiting for unfinished jobs....
+[2.793s] gmake[2]: *** [CMakeFiles/rpm_pub.dir/build.make:76: CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o] Error 1
+[2.793s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rpm_pub.dir/all] Error 2
+[2.793s] gmake: *** [Makefile:146: all] Error 2
+[2.794s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg -- -j8 -l8

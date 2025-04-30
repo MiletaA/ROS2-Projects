@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg/rpm_pub" "/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg/speed_calc" "TARGETS" "rpm_pub" "speed_calc" "DESTINATION" "lib/pub_sub_pkg")

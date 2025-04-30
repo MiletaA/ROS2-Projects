@@ -1,0 +1,7 @@
+[0.015s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg
+[0.068s] [31mCMake Error at CMakeLists.txt:30:
+[0.068s]   Parse error.  Expected "(", got identifier with text "float".
+[0.068s] 
+[0.068s] [0m
+[0.069s] -- Configuring incomplete, errors occurred!
+[0.075s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg

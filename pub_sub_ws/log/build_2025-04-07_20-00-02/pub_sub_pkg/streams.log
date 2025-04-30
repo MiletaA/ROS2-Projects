@@ -1,0 +1,57 @@
+[0.006s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg
+[0.016s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.173s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.179s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.199s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.207s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.215s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.275s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.276s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.325s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.374s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.390s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.469s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.469s] -- Configured cppcheck include dirs: 
+[0.469s] -- Configured cppcheck exclude dirs and/or files: 
+[0.469s] -- Added test 'lint_cmake' to check CMake code style
+[0.470s] -- Added test 'uncrustify' to check C / C++ code style
+[0.470s] -- Configured uncrustify additional arguments: 
+[0.471s] -- Added test 'xmllint' to check XML markup files
+[0.473s] -- Configuring done (0.5s)
+[0.490s] -- Generating done (0.0s)
+[0.493s] -- Build files have been written to: /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg
+[0.499s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg
+[0.500s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg -- -j8 -l8
+[0.544s] [ 50%] Building CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o
+[0.544s] [ 50%] Building CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o
+[2.652s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp: In constructor ‘SpeedCalcNode::SpeedCalcNode()’:
+[2.652s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:9:13: error: ‘rpm_subscription_’ was not declared in this scope; did you mean ‘rmw_subscription_t’?
+[2.652s]     9 |             rpm_subscription_ = this->create_subscription<std_msgs::msg::Float64>(
+[2.652s]       |             ^~~~~~~~~~~~~~~~~
+[2.653s]       |             rmw_subscription_t
+[2.653s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:11:13: error: expected unqualified-id before ‘)’ token
+[2.653s]    11 |             );
+[2.653s]       |             ^
+[2.657s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp: In constructor ‘RpmPubNode::RpmPubNode()’:
+[2.657s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp:14:20: error: invalid operands of types ‘<unresolved overloaded function type>’ and ‘const char [27]’ to binary ‘operator<<’
+[2.657s]    14 |         std::count << "RPM Publisher Node Running" << std:endl;
+[2.657s]       |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.657s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/rpm_pub.cpp:14:58: error: found ‘:’ in nested-name-specifier, expected ‘::’
+[2.657s]    14 |         std::count << "RPM Publisher Node Running" << std:endl;
+[2.657s]       |                                                          ^
+[2.657s]       |                                                          ::
+[2.662s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:12:13: error: ‘speed_publisher_’ was not declared in this scope
+[2.662s]    12 |             speed_publisher_ = this->create_publisher<std_msgs::msg::Float64>("speed", 10); //initialization of var
+[2.662s]       |             ^~~~~~~~~~~~~~~~
+[2.681s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp: In member function ‘void SpeedCalcNode::calculate_and_pub_speed(const std_msgs::msg::Float64&) const’:
+[2.681s] /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/src/pub_sub_pkg/src/speed_calc.cpp:19:13: error: ‘speed_publisher_’ was not declared in this scope
+[2.681s]    19 |             speed_publisher_->publisher(speed_msg);
+[2.681s]       |             ^~~~~~~~~~~~~~~~
+[3.597s] gmake[2]: *** [CMakeFiles/speed_calc.dir/build.make:76: CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o] Error 1
+[3.597s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/speed_calc.dir/all] Error 2
+[3.597s] gmake[1]: *** Waiting for unfinished jobs....
+[3.690s] gmake[2]: *** [CMakeFiles/rpm_pub.dir/build.make:76: CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o] Error 1
+[3.690s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rpm_pub.dir/all] Error 2
+[3.691s] gmake: *** [Makefile:146: all] Error 2
+[3.692s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg -- -j8 -l8

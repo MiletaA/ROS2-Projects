@@ -1,0 +1,1 @@
+/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/launch/rpm_node.launch.py

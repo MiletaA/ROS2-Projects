@@ -1,0 +1,1 @@
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/build/pub_sub_pkg/ament_cmake_environment_hooks/local_setup.sh

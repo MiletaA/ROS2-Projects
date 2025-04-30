@@ -1,0 +1,17 @@
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/lib/pub_sub_pkg/rpm_pub
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/lib/pub_sub_pkg/speed_calc
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/ament_index/resource_index/package_run_dependencies/pub_sub_pkg
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/ament_index/resource_index/parent_prefix_path/pub_sub_pkg
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/environment/ament_prefix_path.sh
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/environment/ament_prefix_path.dsv
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/environment/path.sh
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/environment/path.dsv
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/local_setup.bash
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/local_setup.sh
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/local_setup.zsh
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/local_setup.dsv
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/package.dsv
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/ament_index/resource_index/packages/pub_sub_pkg
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/cmake/pub_sub_pkgConfig.cmake
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/cmake/pub_sub_pkgConfig-version.cmake
+/home/ubuntu/ROS2/ros_workspace_name/pub_sub_ws/install/pub_sub_pkg/share/pub_sub_pkg/package.xml

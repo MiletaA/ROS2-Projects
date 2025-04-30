@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000239] (param_launch_pub_sub_pkg) JobQueued: {'identifier': 'param_launch_pub_sub_pkg', 'dependencies': OrderedDict()}
+[0.000510] (param_launch_pub_sub_pkg) JobStarted: {'identifier': 'param_launch_pub_sub_pkg'}
+[0.010489] (param_launch_pub_sub_pkg) JobProgress: {'identifier': 'param_launch_pub_sub_pkg', 'progress': 'cmake'}
+[0.011040] (param_launch_pub_sub_pkg) JobProgress: {'identifier': 'param_launch_pub_sub_pkg', 'progress': 'build'}
+[0.011645] (param_launch_pub_sub_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,8488,0', 'USER': 'ubuntu', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/ubuntu/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/191/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws', 'TERM_PROGRAM_VERSION': '1.99.3', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/191/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/ubuntu/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/191/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/191/usr/share/code/code', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2587', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a4e215db3a852a883975175c68125769', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2587,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2587', 'GTK_EXE_PREFIX': '/snap/code/191/usr', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/65cade95_220e_4641_817e_c3fb97098e62', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'ZEITGEIST_DATA_PATH': '/home/ubuntu/.local/share/zeitgeist', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/191/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/ubuntu/snap/code/191/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IMZ452', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-8f17b0afe8.sock', 'GNOME_TERMINAL_SERVICE': ':1.137', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/ubuntu/snap/code/191/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a4e215db3a852a883975175c68125769', 'XDG_DATA_DIRS': '/home/ubuntu/snap/code/191/.local/share:/home/ubuntu/snap/code/191:/snap/code/191/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/ubuntu/.tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.082829] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'[ 50%] Built target rpm_pub\n'}
+[0.095878] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o\x1b[0m\n'}
+[0.102871] (-) TimerEvent: {}
+[0.203221] (-) TimerEvent: {}
+[0.304151] (-) TimerEvent: {}
+[0.404408] (-) TimerEvent: {}
+[0.504673] (-) TimerEvent: {}
+[0.604924] (-) TimerEvent: {}
+[0.705190] (-) TimerEvent: {}
+[0.805463] (-) TimerEvent: {}
+[0.905727] (-) TimerEvent: {}
+[1.005983] (-) TimerEvent: {}
+[1.106266] (-) TimerEvent: {}
+[1.206873] (-) TimerEvent: {}
+[1.307151] (-) TimerEvent: {}
+[1.407544] (-) TimerEvent: {}
+[1.507810] (-) TimerEvent: {}
+[1.608142] (-) TimerEvent: {}
+[1.708423] (-) TimerEvent: {}
+[1.808783] (-) TimerEvent: {}
+[1.909086] (-) TimerEvent: {}
+[2.009440] (-) TimerEvent: {}
+[2.109796] (-) TimerEvent: {}
+[2.210166] (-) TimerEvent: {}
+[2.310461] (-) TimerEvent: {}
+[2.410765] (-) TimerEvent: {}
+[2.511017] (-) TimerEvent: {}
+[2.611365] (-) TimerEvent: {}
+[2.711726] (-) TimerEvent: {}
+[2.812091] (-) TimerEvent: {}
+[2.912384] (-) TimerEvent: {}
+[3.012728] (-) TimerEvent: {}
+[3.113110] (-) TimerEvent: {}
+[3.213528] (-) TimerEvent: {}
+[3.313812] (-) TimerEvent: {}
+[3.414169] (-) TimerEvent: {}
+[3.514450] (-) TimerEvent: {}
+[3.614790] (-) TimerEvent: {}
+[3.715137] (-) TimerEvent: {}
+[3.815487] (-) TimerEvent: {}
+[3.915888] (-) TimerEvent: {}
+[4.016329] (-) TimerEvent: {}
+[4.116688] (-) TimerEvent: {}
+[4.217053] (-) TimerEvent: {}
+[4.317418] (-) TimerEvent: {}
+[4.417791] (-) TimerEvent: {}
+[4.518159] (-) TimerEvent: {}
+[4.618540] (-) TimerEvent: {}
+[4.718922] (-) TimerEvent: {}
+[4.819313] (-) TimerEvent: {}
+[4.919678] (-) TimerEvent: {}
+[5.020050] (-) TimerEvent: {}
+[5.120407] (-) TimerEvent: {}
+[5.220701] (-) TimerEvent: {}
+[5.320984] (-) TimerEvent: {}
+[5.421308] (-) TimerEvent: {}
+[5.521675] (-) TimerEvent: {}
+[5.622039] (-) TimerEvent: {}
+[5.722381] (-) TimerEvent: {}
+[5.822768] (-) TimerEvent: {}
+[5.923128] (-) TimerEvent: {}
+[6.023477] (-) TimerEvent: {}
+[6.123844] (-) TimerEvent: {}
+[6.224215] (-) TimerEvent: {}
+[6.324593] (-) TimerEvent: {}
+[6.424910] (-) TimerEvent: {}
+[6.525291] (-) TimerEvent: {}
+[6.625594] (-) TimerEvent: {}
+[6.725903] (-) TimerEvent: {}
+[6.826200] (-) TimerEvent: {}
+[6.926504] (-) TimerEvent: {}
+[7.026893] (-) TimerEvent: {}
+[7.127215] (-) TimerEvent: {}
+[7.227477] (-) TimerEvent: {}
+[7.327769] (-) TimerEvent: {}
+[7.428027] (-) TimerEvent: {}
+[7.528325] (-) TimerEvent: {}
+[7.628678] (-) TimerEvent: {}
+[7.728945] (-) TimerEvent: {}
+[7.829192] (-) TimerEvent: {}
+[7.929478] (-) TimerEvent: {}
+[8.029815] (-) TimerEvent: {}
+[8.130068] (-) TimerEvent: {}
+[8.230363] (-) TimerEvent: {}
+[8.330630] (-) TimerEvent: {}
+[8.430903] (-) TimerEvent: {}
+[8.531200] (-) TimerEvent: {}
+[8.623671] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable speed_calc\x1b[0m\n'}
+[8.631288] (-) TimerEvent: {}
+[8.731532] (-) TimerEvent: {}
+[8.831840] (-) TimerEvent: {}
+[8.932182] (-) TimerEvent: {}
+[9.032528] (-) TimerEvent: {}
+[9.092688] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'[100%] Built target speed_calc\n'}
+[9.108495] (param_launch_pub_sub_pkg) CommandEnded: {'returncode': 0}
+[9.109579] (param_launch_pub_sub_pkg) JobProgress: {'identifier': 'param_launch_pub_sub_pkg', 'progress': 'install'}
+[9.122975] (param_launch_pub_sub_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,8488,0', 'USER': 'ubuntu', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/ubuntu/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/191/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws', 'TERM_PROGRAM_VERSION': '1.99.3', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/191/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/ubuntu/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/191/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/191/usr/share/code/code', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2587', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a4e215db3a852a883975175c68125769', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2587,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2587', 'GTK_EXE_PREFIX': '/snap/code/191/usr', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/65cade95_220e_4641_817e_c3fb97098e62', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'ZEITGEIST_DATA_PATH': '/home/ubuntu/.local/share/zeitgeist', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/191/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/ubuntu/snap/code/191/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IMZ452', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-8f17b0afe8.sock', 'GNOME_TERMINAL_SERVICE': ':1.137', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/ubuntu/snap/code/191/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a4e215db3a852a883975175c68125769', 'XDG_DATA_DIRS': '/home/ubuntu/snap/code/191/.local/share:/home/ubuntu/snap/code/191:/snap/code/191/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/ubuntu/.tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.131926] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.132432] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.132546] (-) TimerEvent: {}
+[9.132817] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/lib/param_launch_pub_sub_pkg/rpm_pub\n'}
+[9.133084] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/lib/param_launch_pub_sub_pkg/speed_calc\n'}
+[9.147117] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg//launch/rpm_node.launch.py\n'}
+[9.163265] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/ament_index/resource_index/package_run_dependencies/param_launch_pub_sub_pkg\n'}
+[9.164032] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/ament_index/resource_index/parent_prefix_path/param_launch_pub_sub_pkg\n'}
+[9.164792] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/environment/ament_prefix_path.sh\n'}
+[9.165009] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/environment/ament_prefix_path.dsv\n'}
+[9.165740] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/environment/path.sh\n'}
+[9.166248] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/environment/path.dsv\n'}
+[9.166607] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/local_setup.bash\n'}
+[9.167227] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/local_setup.sh\n'}
+[9.167450] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/local_setup.zsh\n'}
+[9.167641] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/local_setup.dsv\n'}
+[9.167841] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/package.dsv\n'}
+[9.188684] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/ament_index/resource_index/packages/param_launch_pub_sub_pkg\n'}
+[9.189694] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/cmake/param_launch_pub_sub_pkgConfig.cmake\n'}
+[9.190019] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/cmake/param_launch_pub_sub_pkgConfig-version.cmake\n'}
+[9.190212] (param_launch_pub_sub_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/package.xml\n'}
+[9.194548] (param_launch_pub_sub_pkg) CommandEnded: {'returncode': 0}
+[9.222815] (param_launch_pub_sub_pkg) JobEnded: {'identifier': 'param_launch_pub_sub_pkg', 'rc': 0}
+[9.223979] (-) EventReactorShutdown: {}

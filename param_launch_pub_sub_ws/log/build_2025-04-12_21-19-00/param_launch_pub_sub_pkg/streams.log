@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg -- -j8 -l8
+[0.056s] [ 50%] Building CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o
+[3.242s] [100%] Linking CXX executable rpm_pub
+[3.395s] [100%] Built target rpm_pub
+[3.404s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg -- -j8 -l8
+[3.412s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg
+[3.418s] -- Install configuration: ""
+[3.419s] -- Execute custom install script
+[3.419s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/lib/param_launch_pub_sub_pkg/rpm_pub
+[3.426s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/ament_index/resource_index/package_run_dependencies/param_launch_pub_sub_pkg
+[3.426s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/ament_index/resource_index/parent_prefix_path/param_launch_pub_sub_pkg
+[3.426s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/environment/ament_prefix_path.sh
+[3.426s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/environment/ament_prefix_path.dsv
+[3.426s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/environment/path.sh
+[3.426s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/environment/path.dsv
+[3.427s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/local_setup.bash
+[3.427s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/local_setup.sh
+[3.427s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/local_setup.zsh
+[3.427s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/local_setup.dsv
+[3.427s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/package.dsv
+[3.435s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/ament_index/resource_index/packages/param_launch_pub_sub_pkg
+[3.435s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/cmake/param_launch_pub_sub_pkgConfig.cmake
+[3.435s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/cmake/param_launch_pub_sub_pkgConfig-version.cmake
+[3.435s] -- Up-to-date symlink: /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/install/param_launch_pub_sub_pkg/share/param_launch_pub_sub_pkg/package.xml
+[3.436s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/build/param_launch_pub_sub_pkg

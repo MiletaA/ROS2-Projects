@@ -1,0 +1,11 @@
+[01m[K/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/speed_calc.cpp:[m[K In constructor ‘[01m[KSpeedCalcNode::[01;32m[KSpeedCalcNode[m[K()[m[K’:
+[01m[K/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/speed_calc.cpp:13:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SpeedCalcNode[m[K’ has no member named ‘[01m[Kdeclare_parmater[m[K’; did you mean ‘[01m[Kdeclare_parameter[m[K’?
+   13 |         this->[01;31m[Kdeclare_parmater[m[K<float>("wheel_radius", WHEEL_RADIUS_DEFAULT);
+      |               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |               [32m[Kdeclare_parameter[m[K
+[01m[K/home/ubuntu/ROS2/ros_workspace_name/param_launch_pub_sub_ws/src/param_launch_pub_sub_pkg/src/speed_calc.cpp:13:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+   13 |         this->declare_parmater<[01;31m[Kfloat[m[K>("wheel_radius", WHEEL_RADIUS_DEFAULT);
+      |                                [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/speed_calc.dir/build.make:76: CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/speed_calc.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
