@@ -1,0 +1,12 @@
+/usr/bin/ld: CMakeFiles/turn_camera_service_server.dir/src/turn_camera_service_server.cpp.o: in function `rclcpp::Service<service_camera_pkg::srv::TurnCamera>::Service(std::shared_ptr<rcl_node_s>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::AnyServiceCallback<service_camera_pkg::srv::TurnCamera>, rcl_service_options_s&)':
+turn_camera_service_server.cpp:(.text._ZN6rclcpp7ServiceIN18service_camera_pkg3srv10TurnCameraEEC2ESt10shared_ptrI10rcl_node_sERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_18AnyServiceCallbackIS3_EER21rcl_service_options_s[_ZN6rclcpp7ServiceIN18service_camera_pkg3srv10TurnCameraEEC5ESt10shared_ptrI10rcl_node_sERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_18AnyServiceCallbackIS3_EER21rcl_service_options_s]+0xce): undefined reference to `rosidl_service_type_support_t const* rosidl_typesupport_cpp::get_service_type_support_handle<service_camera_pkg::srv::TurnCamera>()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/turn_camera_service_server.dir/build.make:242: turn_camera_service_server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/turn_camera_service_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o: in function `rclcpp::Client<service_camera_pkg::srv::TurnCamera>::Client(rclcpp::node_interfaces::NodeBaseInterface*, std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_client_options_s&)':
+turn_camera_client.cpp:(.text._ZN6rclcpp6ClientIN18service_camera_pkg3srv10TurnCameraEEC2EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_s[_ZN6rclcpp6ClientIN18service_camera_pkg3srv10TurnCameraEEC5EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_s]+0xca): undefined reference to `rosidl_service_type_support_t const* rosidl_typesupport_cpp::get_service_type_support_handle<service_camera_pkg::srv::TurnCamera>()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/turn_camera_client.dir/build.make:242: turn_camera_client] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/turn_camera_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

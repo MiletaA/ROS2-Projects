@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (service_camera_pkg) JobQueued: {'identifier': 'service_camera_pkg', 'dependencies': OrderedDict()}
+[0.000663] (service_camera_pkg) JobStarted: {'identifier': 'service_camera_pkg'}
+[0.008516] (service_camera_pkg) JobProgress: {'identifier': 'service_camera_pkg', 'progress': 'cmake'}
+[0.009167] (service_camera_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/src/service_camera_pkg', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/install/service_camera_pkg'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,12964,1', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build', 'TERM_PROGRAM_VERSION': '3.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2599', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0c33128b27efca89b51073c76818753a', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'tmux-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2599,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f3ed3442_d7e3_48ec_92b7_893c69d05ed5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'ZEITGEIST_DATA_PATH': '/home/ubuntu/.local/share/zeitgeist', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VW0352', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.123', 'TERM_PROGRAM': 'tmux', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0c33128b27efca89b51073c76818753a', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/ubuntu/.tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099816] (-) TimerEvent: {}
+[0.144820] (service_camera_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199915] (-) TimerEvent: {}
+[0.246460] (service_camera_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.268537] (service_camera_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300058] (-) TimerEvent: {}
+[0.369440] (service_camera_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.383494] (service_camera_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.383925] (service_camera_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.384531] (service_camera_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.395427] (service_camera_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400146] (-) TimerEvent: {}
+[0.500415] (-) TimerEvent: {}
+[0.514287] (service_camera_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.525613] (service_camera_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.526079] (service_camera_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.526604] (service_camera_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.533801] (service_camera_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600543] (-) TimerEvent: {}
+[0.700968] (-) TimerEvent: {}
+[0.711527] (service_camera_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.801059] (-) TimerEvent: {}
+[0.830262] (service_camera_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.877319] (service_camera_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.891938] (service_camera_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.901165] (-) TimerEvent: {}
+[0.914984] (service_camera_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.936998] (service_camera_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001282] (-) TimerEvent: {}
+[1.036636] (service_camera_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.041148] (service_camera_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101405] (-) TimerEvent: {}
+[1.133162] (service_camera_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.165145] (service_camera_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.191945] (service_camera_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.201518] (-) TimerEvent: {}
+[1.275956] (service_camera_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.290377] (service_camera_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.293431] (service_camera_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.301610] (-) TimerEvent: {}
+[1.372695] (service_camera_pkg) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[1.374355] (service_camera_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[1.401706] (-) TimerEvent: {}
+[1.501917] (-) TimerEvent: {}
+[1.602156] (-) TimerEvent: {}
+[1.702397] (-) TimerEvent: {}
+[1.802633] (-) TimerEvent: {}
+[1.902886] (-) TimerEvent: {}
+[2.003152] (-) TimerEvent: {}
+[2.096493] (service_camera_pkg) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)\n'}
+[2.098658] (service_camera_pkg) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)\n'}
+[2.100643] (service_camera_pkg) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)\n'}
+[2.102864] (service_camera_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.103204] (-) TimerEvent: {}
+[2.203389] (-) TimerEvent: {}
+[2.303637] (-) TimerEvent: {}
+[2.403873] (-) TimerEvent: {}
+[2.504123] (-) TimerEvent: {}
+[2.604381] (-) TimerEvent: {}
+[2.704697] (-) TimerEvent: {}
+[2.804941] (-) TimerEvent: {}
+[2.905257] (-) TimerEvent: {}
+[3.005486] (-) TimerEvent: {}
+[3.105778] (-) TimerEvent: {}
+[3.189828] (service_camera_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.205880] (-) TimerEvent: {}
+[3.306152] (-) TimerEvent: {}
+[3.406418] (-) TimerEvent: {}
+[3.506695] (-) TimerEvent: {}
+[3.606920] (-) TimerEvent: {}
+[3.651284] (service_camera_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.655356] (service_camera_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.707006] (-) TimerEvent: {}
+[3.807288] (-) TimerEvent: {}
+[3.813297] (service_camera_pkg) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.907398] (-) TimerEvent: {}
+[4.007637] (-) TimerEvent: {}
+[4.107880] (-) TimerEvent: {}
+[4.208133] (-) TimerEvent: {}
+[4.282319] (service_camera_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.308231] (-) TimerEvent: {}
+[4.353073] (service_camera_pkg) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)\n'}
+[4.354792] (service_camera_pkg) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)\n'}
+[4.362698] (service_camera_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.372393] (service_camera_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.373208] (service_camera_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.373336] (service_camera_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.374051] (service_camera_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.374168] (service_camera_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.374934] (service_camera_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.375060] (service_camera_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.375562] (service_camera_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.380564] (service_camera_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.382844] (service_camera_pkg) StdoutLine: {'line': b'-- Configuring done (4.4s)\n'}
+[4.408345] (-) TimerEvent: {}
+[4.449604] (service_camera_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.468669] (service_camera_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg\n'}
+[4.485821] (service_camera_pkg) CommandEnded: {'returncode': 0}
+[4.486354] (service_camera_pkg) JobProgress: {'identifier': 'service_camera_pkg', 'progress': 'build'}
+[4.487011] (service_camera_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,12964,1', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build', 'TERM_PROGRAM_VERSION': '3.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2599', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0c33128b27efca89b51073c76818753a', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'tmux-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2599,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f3ed3442_d7e3_48ec_92b7_893c69d05ed5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'ZEITGEIST_DATA_PATH': '/home/ubuntu/.local/share/zeitgeist', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VW0352', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.123', 'TERM_PROGRAM': 'tmux', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0c33128b27efca89b51073c76818753a', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/ubuntu/.tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.508456] (-) TimerEvent: {}
+[4.539602] (service_camera_pkg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.548041] (service_camera_pkg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_service_camera_pkg\n'}
+[4.608612] (-) TimerEvent: {}
+[4.709119] (-) TimerEvent: {}
+[4.809476] (-) TimerEvent: {}
+[4.856617] (service_camera_pkg) StdoutLine: {'line': b'[  2%] Built target service_camera_pkg__rosidl_generator_type_description\n'}
+[4.871958] (service_camera_pkg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.893684] (service_camera_pkg) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.909598] (-) TimerEvent: {}
+[4.930217] (service_camera_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.933072] (service_camera_pkg) StdoutLine: {'line': b'creating service_camera_pkg.egg-info\n'}
+[4.964142] (service_camera_pkg) StdoutLine: {'line': b'writing service_camera_pkg.egg-info/PKG-INFO\n'}
+[4.964412] (service_camera_pkg) StdoutLine: {'line': b'writing dependency_links to service_camera_pkg.egg-info/dependency_links.txt\n'}
+[4.964574] (service_camera_pkg) StdoutLine: {'line': b'writing top-level names to service_camera_pkg.egg-info/top_level.txt\n'}
+[4.964816] (service_camera_pkg) StdoutLine: {'line': b"writing manifest file 'service_camera_pkg.egg-info/SOURCES.txt'\n"}
+[5.009708] (-) TimerEvent: {}
+[5.056986] (service_camera_pkg) StdoutLine: {'line': b"reading manifest file 'service_camera_pkg.egg-info/SOURCES.txt'\n"}
+[5.058091] (service_camera_pkg) StdoutLine: {'line': b"writing manifest file 'service_camera_pkg.egg-info/SOURCES.txt'\n"}
+[5.097369] (service_camera_pkg) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_service_camera_pkg_egg\n'}
+[5.109804] (-) TimerEvent: {}
+[5.210058] (-) TimerEvent: {}
+[5.310385] (-) TimerEvent: {}
+[5.377768] (service_camera_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/service_camera_pkg__rosidl_generator_c.dir/rosidl_generator_c/service_camera_pkg/srv/detail/turn_camera__functions.c.o\x1b[0m\n'}
+[5.378124] (service_camera_pkg) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/service_camera_pkg__rosidl_generator_c.dir/rosidl_generator_c/service_camera_pkg/srv/detail/turn_camera__type_support.c.o\x1b[0m\n'}
+[5.378291] (service_camera_pkg) StdoutLine: {'line': b'[ 13%] Built target service_camera_pkg__cpp\n'}
+[5.378444] (service_camera_pkg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/service_camera_pkg__rosidl_generator_c.dir/rosidl_generator_c/service_camera_pkg/srv/detail/turn_camera__description.c.o\x1b[0m\n'}
+[5.410528] (-) TimerEvent: {}
+[5.418210] (service_camera_pkg) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o\x1b[0m\n'}
+[5.418983] (service_camera_pkg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turn_camera_service_server.dir/src/turn_camera_service_server.cpp.o\x1b[0m\n'}
+[5.506555] (service_camera_pkg) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libservice_camera_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[5.510621] (-) TimerEvent: {}
+[5.565418] (service_camera_pkg) StdoutLine: {'line': b'[ 23%] Built target service_camera_pkg__rosidl_generator_c\n'}
+[5.591054] (service_camera_pkg) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.591423] (service_camera_pkg) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.591622] (service_camera_pkg) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.597486] (service_camera_pkg) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.597902] (service_camera_pkg) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.598137] (service_camera_pkg) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.611482] (-) TimerEvent: {}
+[5.713731] (-) TimerEvent: {}
+[5.814112] (-) TimerEvent: {}
+[5.914554] (-) TimerEvent: {}
+[6.017177] (-) TimerEvent: {}
+[6.117549] (-) TimerEvent: {}
+[6.217933] (-) TimerEvent: {}
+[6.323718] (-) TimerEvent: {}
+[6.341981] (service_camera_pkg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/service_camera_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_camera_pkg/srv/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[6.422406] (service_camera_pkg) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/service_camera_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/service_camera_pkg/srv/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[6.423915] (-) TimerEvent: {}
+[6.524692] (-) TimerEvent: {}
+[6.555829] (service_camera_pkg) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libservice_camera_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.623941] (service_camera_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/service_camera_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_camera_pkg/srv/detail/turn_camera__type_support.c.o\x1b[0m\n'}
+[6.624770] (-) TimerEvent: {}
+[6.728010] (-) TimerEvent: {}
+[6.729477] (service_camera_pkg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/service_camera_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/service_camera_pkg/srv/detail/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[6.736753] (service_camera_pkg) StdoutLine: {'line': b'[ 52%] Built target service_camera_pkg__rosidl_typesupport_c\n'}
+[6.804756] (service_camera_pkg) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libservice_camera_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.828152] (-) TimerEvent: {}
+[6.902327] (service_camera_pkg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/service_camera_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/service_camera_pkg/srv/detail/turn_camera__type_support_c.cpp.o\x1b[0m\n'}
+[6.914793] (service_camera_pkg) StdoutLine: {'line': b'[ 57%] Built target service_camera_pkg__rosidl_typesupport_introspection_c\n'}
+[6.928290] (-) TimerEvent: {}
+[6.980638] (service_camera_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/service_camera_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/service_camera_pkg/srv/detail/dds_fastrtps/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[7.029545] (-) TimerEvent: {}
+[7.130278] (-) TimerEvent: {}
+[7.232746] (-) TimerEvent: {}
+[7.333197] (-) TimerEvent: {}
+[7.438967] (-) TimerEvent: {}
+[7.539376] (-) TimerEvent: {}
+[7.643032] (-) TimerEvent: {}
+[7.741897] (service_camera_pkg) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libservice_camera_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.743402] (-) TimerEvent: {}
+[7.849901] (-) TimerEvent: {}
+[7.954634] (-) TimerEvent: {}
+[7.963568] (service_camera_pkg) StdoutLine: {'line': b'[ 63%] Built target service_camera_pkg__rosidl_typesupport_cpp\n'}
+[7.964200] (service_camera_pkg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libservice_camera_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.054800] (-) TimerEvent: {}
+[8.121210] (service_camera_pkg) StdoutLine: {'line': b'[ 65%] Built target service_camera_pkg__rosidl_typesupport_introspection_cpp\n'}
+[8.154982] (-) TimerEvent: {}
+[8.255577] (-) TimerEvent: {}
+[8.266430] (service_camera_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libservice_camera_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.355722] (-) TimerEvent: {}
+[8.370040] (service_camera_pkg) StdoutLine: {'line': b'[ 68%] Built target service_camera_pkg__rosidl_typesupport_fastrtps_c\n'}
+[8.455841] (-) TimerEvent: {}
+[8.556186] (-) TimerEvent: {}
+[8.648210] (service_camera_pkg) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libservice_camera_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.656306] (-) TimerEvent: {}
+[8.756676] (-) TimerEvent: {}
+[8.782301] (service_camera_pkg) StdoutLine: {'line': b'[ 71%] Built target service_camera_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[8.811288] (service_camera_pkg) StdoutLine: {'line': b'[ 71%] Built target service_camera_pkg\n'}
+[8.840365] (service_camera_pkg) StdoutLine: {'line': b'[ 73%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.856754] (-) TimerEvent: {}
+[8.957147] (-) TimerEvent: {}
+[9.057505] (-) TimerEvent: {}
+[9.157918] (-) TimerEvent: {}
+[9.258280] (-) TimerEvent: {}
+[9.358690] (-) TimerEvent: {}
+[9.458128] (service_camera_pkg) StdoutLine: {'line': b'[ 73%] Built target service_camera_pkg__py\n'}
+[9.458767] (-) TimerEvent: {}
+[9.483750] (service_camera_pkg) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/service_camera_pkg__rosidl_generator_py.dir/rosidl_generator_py/service_camera_pkg/srv/_turn_camera_s.c.o\x1b[0m\n'}
+[9.558932] (-) TimerEvent: {}
+[9.659421] (-) TimerEvent: {}
+[9.740879] (service_camera_pkg) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library libservice_camera_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[9.759616] (-) TimerEvent: {}
+[9.819036] (service_camera_pkg) StdoutLine: {'line': b'[ 78%] Built target service_camera_pkg__rosidl_generator_py\n'}
+[9.859834] (-) TimerEvent: {}
+[9.861425] (service_camera_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/service_camera_pkg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/service_camera_pkg/_service_camera_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.863434] (service_camera_pkg) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/service_camera_pkg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/service_camera_pkg/_service_camera_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.867394] (service_camera_pkg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/service_camera_pkg_s__rosidl_typesupport_c.dir/rosidl_generator_py/service_camera_pkg/_service_camera_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.960440] (-) TimerEvent: {}
+[10.061749] (-) TimerEvent: {}
+[10.139755] (service_camera_pkg) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/service_camera_pkg/service_camera_pkg_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.161932] (-) TimerEvent: {}
+[10.210004] (service_camera_pkg) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/service_camera_pkg/service_camera_pkg_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.218577] (service_camera_pkg) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/service_camera_pkg/service_camera_pkg_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.230901] (service_camera_pkg) StdoutLine: {'line': b'[ 94%] Built target service_camera_pkg_s__rosidl_typesupport_introspection_c\n'}
+[10.262058] (-) TimerEvent: {}
+[10.268221] (service_camera_pkg) StdoutLine: {'line': b'[ 94%] Built target service_camera_pkg_s__rosidl_typesupport_c\n'}
+[10.292493] (service_camera_pkg) StdoutLine: {'line': b'[ 94%] Built target service_camera_pkg_s__rosidl_typesupport_fastrtps_c\n'}
+[10.362202] (-) TimerEvent: {}
+[10.462618] (-) TimerEvent: {}
+[10.562958] (-) TimerEvent: {}
+[10.663374] (-) TimerEvent: {}
+[10.763745] (-) TimerEvent: {}
+[10.864041] (-) TimerEvent: {}
+[10.964303] (-) TimerEvent: {}
+[11.064580] (-) TimerEvent: {}
+[11.164845] (-) TimerEvent: {}
+[11.265193] (-) TimerEvent: {}
+[11.365491] (-) TimerEvent: {}
+[11.465800] (-) TimerEvent: {}
+[11.566061] (-) TimerEvent: {}
+[11.666405] (-) TimerEvent: {}
+[11.766725] (-) TimerEvent: {}
+[11.867013] (-) TimerEvent: {}
+[11.967284] (-) TimerEvent: {}
+[12.067556] (-) TimerEvent: {}
+[12.168000] (-) TimerEvent: {}
+[12.268289] (-) TimerEvent: {}
+[12.368598] (-) TimerEvent: {}
+[12.468891] (-) TimerEvent: {}
+[12.569188] (-) TimerEvent: {}
+[12.669485] (-) TimerEvent: {}
+[12.769737] (-) TimerEvent: {}
+[12.870006] (-) TimerEvent: {}
+[12.970284] (-) TimerEvent: {}
+[13.070552] (-) TimerEvent: {}
+[13.170842] (-) TimerEvent: {}
+[13.271107] (-) TimerEvent: {}
+[13.371377] (-) TimerEvent: {}
+[13.471657] (-) TimerEvent: {}
+[13.571976] (-) TimerEvent: {}
+[13.672222] (-) TimerEvent: {}
+[13.772495] (-) TimerEvent: {}
+[13.872736] (-) TimerEvent: {}
+[13.973001] (-) TimerEvent: {}
+[14.073261] (-) TimerEvent: {}
+[14.173541] (-) TimerEvent: {}
+[14.273834] (-) TimerEvent: {}
+[14.374148] (-) TimerEvent: {}
+[14.474504] (-) TimerEvent: {}
+[14.575004] (-) TimerEvent: {}
+[14.615240] (service_camera_pkg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable turn_camera_client\x1b[0m\n'}
+[14.668316] (service_camera_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turn_camera_service_server\x1b[0m\n'}
+[14.675154] (-) TimerEvent: {}
+[14.775644] (-) TimerEvent: {}
+[14.876193] (-) TimerEvent: {}
+[14.976697] (-) TimerEvent: {}
+[15.077056] (-) TimerEvent: {}
+[15.177490] (-) TimerEvent: {}
+[15.277923] (-) TimerEvent: {}
+[15.333630] (service_camera_pkg) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/turn_camera_service_server.dir/src/turn_camera_service_server.cpp.o: in function `rclcpp::Service<service_camera_pkg::srv::TurnCamera>::Service(std::shared_ptr<rcl_node_s>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::AnyServiceCallback<service_camera_pkg::srv::TurnCamera>, rcl_service_options_s&)':\n"}
+[15.333979] (service_camera_pkg) StderrLine: {'line': b"turn_camera_service_server.cpp:(.text._ZN6rclcpp7ServiceIN18service_camera_pkg3srv10TurnCameraEEC2ESt10shared_ptrI10rcl_node_sERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_18AnyServiceCallbackIS3_EER21rcl_service_options_s[_ZN6rclcpp7ServiceIN18service_camera_pkg3srv10TurnCameraEEC5ESt10shared_ptrI10rcl_node_sERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_18AnyServiceCallbackIS3_EER21rcl_service_options_s]+0xce): undefined reference to `rosidl_service_type_support_t const* rosidl_typesupport_cpp::get_service_type_support_handle<service_camera_pkg::srv::TurnCamera>()'\n"}
+[15.378043] (-) TimerEvent: {}
+[15.382077] (service_camera_pkg) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[15.388128] (service_camera_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turn_camera_service_server.dir/build.make:242: turn_camera_service_server] Error 1\n'}
+[15.388389] (service_camera_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/turn_camera_service_server.dir/all] Error 2\n'}
+[15.388474] (service_camera_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[15.440327] (service_camera_pkg) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o: in function `rclcpp::Client<service_camera_pkg::srv::TurnCamera>::Client(rclcpp::node_interfaces::NodeBaseInterface*, std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_client_options_s&)':\n"}
+[15.440541] (service_camera_pkg) StderrLine: {'line': b"turn_camera_client.cpp:(.text._ZN6rclcpp6ClientIN18service_camera_pkg3srv10TurnCameraEEC2EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_s[_ZN6rclcpp6ClientIN18service_camera_pkg3srv10TurnCameraEEC5EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_s]+0xca): undefined reference to `rosidl_service_type_support_t const* rosidl_typesupport_cpp::get_service_type_support_handle<service_camera_pkg::srv::TurnCamera>()'\n"}
+[15.478217] (-) TimerEvent: {}
+[15.499357] (service_camera_pkg) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[15.500722] (service_camera_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turn_camera_client.dir/build.make:242: turn_camera_client] Error 1\n'}
+[15.500913] (service_camera_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/turn_camera_client.dir/all] Error 2\n'}
+[15.501155] (service_camera_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.503776] (service_camera_pkg) CommandEnded: {'returncode': 2}
+[15.510785] (service_camera_pkg) JobEnded: {'identifier': 'service_camera_pkg', 'rc': 2}
+[15.521181] (-) EventReactorShutdown: {}

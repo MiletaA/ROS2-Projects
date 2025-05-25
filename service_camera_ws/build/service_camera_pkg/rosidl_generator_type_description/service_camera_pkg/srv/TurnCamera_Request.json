@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "service_camera_pkg/srv/TurnCamera_Request",
+      "fields": [
+        {
+          "name": "degree_turn",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "service_camera_pkg/srv/TurnCamera_Request",
+      "hash_string": "RIHS01_e528ba1b6b2fa94c72aad13bf59b0fd082c078892d752f9f6dece7cad589a500"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[0.009s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/src/service_camera_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/install/service_camera_pkg
+[0.037s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.066s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.165s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.172s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.202s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.224s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.370s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.372s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.576s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.585s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.587s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.690s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.116s] -- Found ament_cmake_cppcheck: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.119s] -- Found ament_cmake_cpplint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.120s] -- Found ament_cmake_uncrustify: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.124s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.946s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.324s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.393s] -- Found ament_cmake_flake8: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[2.394s] -- Found ament_cmake_pep257: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[2.398s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[2.398s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[2.398s]   rosidl_target_interfaces().  i.e:
+[2.398s] 
+[2.398s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[2.398s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[2.398s] 
+[2.398s] Call Stack (most recent call first):
+[2.398s]   CMakeLists.txt:33 (rosidl_target_interfaces)
+[2.398s] 
+[2.398s] [0m
+[2.400s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[2.400s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[2.400s]   rosidl_target_interfaces().  i.e:
+[2.400s] 
+[2.400s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[2.400s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[2.400s] 
+[2.400s] Call Stack (most recent call first):
+[2.400s]   CMakeLists.txt:41 (rosidl_target_interfaces)
+[2.400s] 
+[2.400s] [0m
+[2.401s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.411s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.413s] -- Configured cppcheck include dirs: 
+[2.413s] -- Configured cppcheck exclude dirs and/or files: 
+[2.415s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.415s] -- Configured cpplint exclude dirs and/or files: 
+[2.418s] -- Added test 'uncrustify' to check C / C++ code style
+[2.418s] -- Configured uncrustify additional arguments: 
+[2.420s] -- Added test 'lint_cmake' to check CMake code style
+[2.421s] -- Added test 'xmllint' to check XML markup files
+[2.429s] -- Configuring done (2.4s)
+[2.521s] -- Generating done (0.1s)
+[2.562s] -- Build files have been written to: /home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg
+[2.584s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/src/service_camera_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/install/service_camera_pkg
+[2.586s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg -- -j8 -l8
+[2.668s] failed to create symbolic link '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg/ament_cmake_python/service_camera_pkg/service_camera_pkg' because existing path cannot be removed: Is a directory
+[2.668s] [  2%] Built target service_camera_pkg__rosidl_generator_type_description
+[2.669s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_service_camera_pkg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_service_camera_pkg] Error 1
+[2.670s] gmake[1]: *** [CMakeFiles/Makefile2:456: CMakeFiles/ament_cmake_python_symlink_service_camera_pkg.dir/all] Error 2
+[2.670s] gmake[1]: *** Waiting for unfinished jobs....
+[2.698s] [  5%] Built target service_camera_pkg__cpp
+[2.700s] gmake: *** [Makefile:146: all] Error 2
+[2.703s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg -- -j8 -l8

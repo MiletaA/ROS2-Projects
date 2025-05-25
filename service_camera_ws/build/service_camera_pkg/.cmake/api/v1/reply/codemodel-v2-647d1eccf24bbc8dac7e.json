@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-79f50327c524c0e0f667.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "service_camera_pkg__py",
+					"jsonFile" : "directory-service_camera_pkg__py-68cf9cc28547c2b77281.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg/service_camera_pkg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "service_camera_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_service_camera_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_service_camera_pkg_egg-c6a2ce8b99e89f231e89.json",
+					"name" : "ament_cmake_python_build_service_camera_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_service_camera_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_service_camera_pkg-cd4d376ace4fe6a5a433.json",
+					"name" : "ament_cmake_python_symlink_service_camera_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg-11cd9b9400f8202d5ec6.json",
+					"name" : "service_camera_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg__cpp-ac7d296d44dfba7591fe.json",
+					"name" : "service_camera_pkg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "service_camera_pkg__py::@9a9b55582b78158f130b",
+					"jsonFile" : "target-service_camera_pkg__py-32b9f4cf8bfcb0ccd3be.json",
+					"name" : "service_camera_pkg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg__rosidl_generator_c-b1605ad2ea08a073345e.json",
+					"name" : "service_camera_pkg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg__rosidl_generator_py-b62190bc7e63522f6280.json",
+					"name" : "service_camera_pkg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg__rosidl_generator_type_description-8c51bf08ea10812098c1.json",
+					"name" : "service_camera_pkg__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg__rosidl_typesupport_c-aa3ebe7d8833cf5daab6.json",
+					"name" : "service_camera_pkg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg__rosidl_typesupport_cpp-c724ebe1de93df7ea17d.json",
+					"name" : "service_camera_pkg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg__rosidl_typesupport_fastrtps_c-18c8d408af20affefb54.json",
+					"name" : "service_camera_pkg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg__rosidl_typesupport_fastrtps_cpp-cda33d5bcf23eabe5941.json",
+					"name" : "service_camera_pkg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg__rosidl_typesupport_introspection_c-7904243ab0aac7faf964.json",
+					"name" : "service_camera_pkg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg__rosidl_typesupport_introspection_cpp-ed148bab5e9b57bf845f.json",
+					"name" : "service_camera_pkg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg_s__rosidl_typesupport_c-8c232bb25167b47e3630.json",
+					"name" : "service_camera_pkg_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg_s__rosidl_typesupport_fastrtps_c-0a44535703051f1ffa2b.json",
+					"name" : "service_camera_pkg_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg_s__rosidl_typesupport_introspection_c-1718ce505c601c4db98f.json",
+					"name" : "service_camera_pkg_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_camera_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_camera_pkg_uninstall-7e436e94b763403861ed.json",
+					"name" : "service_camera_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_camera_service_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_camera_service_server-fd6c28ea2959df48617b.json",
+					"name" : "turn_camera_service_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7daa9e96ccd2618703f5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg",
+		"source" : "/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/src/service_camera_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

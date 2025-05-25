@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg/turn_camera_service_server" "TARGETS" "turn_camera_service_server" "DESTINATION" "lib/service_camera_pkg")

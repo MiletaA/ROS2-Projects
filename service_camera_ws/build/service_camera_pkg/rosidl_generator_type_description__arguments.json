@@ -1,0 +1,14 @@
+{
+  "package_name": "service_camera_pkg",
+  "output_dir": "/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg/rosidl_generator_type_description/service_camera_pkg",
+  "idl_tuples": [
+    "/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg/rosidl_adapter/service_camera_pkg:srv/TurnCamera.idl"
+  ],
+  "include_paths": [
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

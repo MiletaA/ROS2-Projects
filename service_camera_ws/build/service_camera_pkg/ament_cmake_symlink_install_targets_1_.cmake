@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/ROS2/ros_workspace_name/service_camera_ws/build/service_camera_pkg/rosidl_generator_py/service_camera_pkg/service_camera_pkg_s__rosidl_typesupport_introspection_c.so" "TARGETS" "service_camera_pkg_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/service_camera_pkg")

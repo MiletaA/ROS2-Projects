@@ -1,0 +1,5 @@
+source;share/service_camera_pkg/local_setup.bash
+source;share/service_camera_pkg/local_setup.dsv
+source;share/service_camera_pkg/local_setup.ps1
+source;share/service_camera_pkg/local_setup.sh
+source;share/service_camera_pkg/local_setup.zsh
