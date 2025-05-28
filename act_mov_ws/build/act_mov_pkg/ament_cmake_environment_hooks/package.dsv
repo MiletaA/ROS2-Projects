@@ -1,0 +1,4 @@
+source;share/act_mov_pkg/local_setup.bash
+source;share/act_mov_pkg/local_setup.dsv
+source;share/act_mov_pkg/local_setup.sh
+source;share/act_mov_pkg/local_setup.zsh

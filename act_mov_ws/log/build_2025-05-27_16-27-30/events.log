@@ -1,0 +1,241 @@
+[0.000000] (-) TimerEvent: {}
+[0.000649] (act_mov_pkg) JobQueued: {'identifier': 'act_mov_pkg', 'dependencies': OrderedDict()}
+[0.000786] (act_mov_pkg) JobStarted: {'identifier': 'act_mov_pkg'}
+[0.008367] (act_mov_pkg) JobProgress: {'identifier': 'act_mov_pkg', 'progress': 'cmake'}
+[0.009052] (act_mov_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/src/act_mov_pkg', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'windsurf.desktop', 'TERM_PROGRAM_VERSION': '1.99.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/windsurf.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/windsurf/windsurf', 'MANAGERPID': '2505', 'SYSTEMD_EXEC_PID': '2816', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '194676', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:22297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2758,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2758', 'INVOCATION_ID': '1176802943164b54a197568c1259e6ac', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MEJB72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c8755bd90.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099801] (-) TimerEvent: {}
+[0.157850] (act_mov_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199950] (-) TimerEvent: {}
+[0.300337] (-) TimerEvent: {}
+[0.311476] (act_mov_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.340965] (act_mov_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400443] (-) TimerEvent: {}
+[0.461782] (act_mov_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.479668] (act_mov_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.480353] (act_mov_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.482070] (act_mov_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.497233] (act_mov_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500566] (-) TimerEvent: {}
+[0.600908] (-) TimerEvent: {}
+[0.621403] (act_mov_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.640190] (act_mov_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.640587] (act_mov_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.641365] (act_mov_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.645077] (act_mov_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.701042] (-) TimerEvent: {}
+[0.801442] (-) TimerEvent: {}
+[0.859999] (act_mov_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.901547] (-) TimerEvent: {}
+[0.980414] (act_mov_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.985809] (act_mov_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001628] (-) TimerEvent: {}
+[1.049284] (act_mov_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.094476] (act_mov_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.097412] (act_mov_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.101799] (-) TimerEvent: {}
+[1.168625] (act_mov_pkg) StdoutLine: {'line': b'-- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[1.201930] (-) TimerEvent: {}
+[1.230478] (act_mov_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.290417] (act_mov_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.293929] (act_mov_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.302033] (-) TimerEvent: {}
+[1.397013] (act_mov_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.402202] (-) TimerEvent: {}
+[1.421037] (act_mov_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.444525] (act_mov_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.502324] (-) TimerEvent: {}
+[1.520970] (act_mov_pkg) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[1.602430] (-) TimerEvent: {}
+[1.702778] (-) TimerEvent: {}
+[1.803150] (-) TimerEvent: {}
+[1.903425] (-) TimerEvent: {}
+[2.007203] (-) TimerEvent: {}
+[2.107583] (-) TimerEvent: {}
+[2.210627] (-) TimerEvent: {}
+[2.311145] (-) TimerEvent: {}
+[2.411548] (-) TimerEvent: {}
+[2.496976] (act_mov_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.511633] (-) TimerEvent: {}
+[2.611993] (-) TimerEvent: {}
+[2.712411] (-) TimerEvent: {}
+[2.812780] (-) TimerEvent: {}
+[2.913121] (-) TimerEvent: {}
+[3.013413] (-) TimerEvent: {}
+[3.113673] (-) TimerEvent: {}
+[3.213916] (-) TimerEvent: {}
+[3.237550] (act_mov_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.314097] (-) TimerEvent: {}
+[3.414375] (-) TimerEvent: {}
+[3.514727] (-) TimerEvent: {}
+[3.615088] (-) TimerEvent: {}
+[3.715373] (-) TimerEvent: {}
+[3.815685] (-) TimerEvent: {}
+[3.916011] (-) TimerEvent: {}
+[4.016313] (-) TimerEvent: {}
+[4.116623] (-) TimerEvent: {}
+[4.150985] (act_mov_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.155559] (act_mov_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.216741] (-) TimerEvent: {}
+[4.317071] (-) TimerEvent: {}
+[4.327136] (act_mov_pkg) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.417188] (-) TimerEvent: {}
+[4.517529] (-) TimerEvent: {}
+[4.617832] (-) TimerEvent: {}
+[4.718120] (-) TimerEvent: {}
+[4.818418] (-) TimerEvent: {}
+[4.881482] (act_mov_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.918553] (-) TimerEvent: {}
+[4.956309] (act_mov_pkg) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[4.956490] (act_mov_pkg) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[4.956570] (act_mov_pkg) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[4.956635] (act_mov_pkg) StderrLine: {'line': b'\n'}
+[4.956696] (act_mov_pkg) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[4.956757] (act_mov_pkg) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[4.956819] (act_mov_pkg) StderrLine: {'line': b'\n'}
+[4.956878] (act_mov_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.956936] (act_mov_pkg) StderrLine: {'line': b'  CMakeLists.txt:37 (rosidl_target_interfaces)\n'}
+[4.956999] (act_mov_pkg) StderrLine: {'line': b'\n'}
+[4.957058] (act_mov_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[4.957840] (act_mov_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.982530] (act_mov_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.983146] (act_mov_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.983271] (act_mov_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.984914] (act_mov_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.986430] (act_mov_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.986530] (act_mov_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.986994] (act_mov_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.990081] (act_mov_pkg) StdoutLine: {'line': b'-- Configuring done (5.0s)\n'}
+[5.021636] (-) TimerEvent: {}
+[5.109071] (act_mov_pkg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.123648] (-) TimerEvent: {}
+[5.146321] (act_mov_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg\n'}
+[5.171736] (act_mov_pkg) CommandEnded: {'returncode': 0}
+[5.173258] (act_mov_pkg) JobProgress: {'identifier': 'act_mov_pkg', 'progress': 'build'}
+[5.173410] (act_mov_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'windsurf.desktop', 'TERM_PROGRAM_VERSION': '1.99.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/windsurf.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/windsurf/windsurf', 'MANAGERPID': '2505', 'SYSTEMD_EXEC_PID': '2816', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '194676', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:22297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2758,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2758', 'INVOCATION_ID': '1176802943164b54a197568c1259e6ac', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MEJB72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c8755bd90.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.223733] (-) TimerEvent: {}
+[5.240113] (act_mov_pkg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.249739] (act_mov_pkg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_act_mov_pkg\n'}
+[5.323847] (-) TimerEvent: {}
+[5.424163] (-) TimerEvent: {}
+[5.524668] (-) TimerEvent: {}
+[5.625216] (-) TimerEvent: {}
+[5.681402] (act_mov_pkg) StdoutLine: {'line': b'[  2%] Built target act_mov_pkg__rosidl_generator_type_description\n'}
+[5.707690] (act_mov_pkg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.726618] (-) TimerEvent: {}
+[5.747785] (act_mov_pkg) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.761010] (act_mov_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.764101] (act_mov_pkg) StdoutLine: {'line': b'creating act_mov_pkg.egg-info\n'}
+[5.820129] (act_mov_pkg) StdoutLine: {'line': b'writing act_mov_pkg.egg-info/PKG-INFO\n'}
+[5.820867] (act_mov_pkg) StdoutLine: {'line': b'writing dependency_links to act_mov_pkg.egg-info/dependency_links.txt\n'}
+[5.821126] (act_mov_pkg) StdoutLine: {'line': b'writing top-level names to act_mov_pkg.egg-info/top_level.txt\n'}
+[5.821336] (act_mov_pkg) StdoutLine: {'line': b"writing manifest file 'act_mov_pkg.egg-info/SOURCES.txt'\n"}
+[5.827798] (-) TimerEvent: {}
+[5.928444] (-) TimerEvent: {}
+[5.978426] (act_mov_pkg) StdoutLine: {'line': b"reading manifest file 'act_mov_pkg.egg-info/SOURCES.txt'\n"}
+[5.979336] (act_mov_pkg) StdoutLine: {'line': b"writing manifest file 'act_mov_pkg.egg-info/SOURCES.txt'\n"}
+[6.028573] (-) TimerEvent: {}
+[6.034228] (act_mov_pkg) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_act_mov_pkg_egg\n'}
+[6.128707] (-) TimerEvent: {}
+[6.229159] (-) TimerEvent: {}
+[6.329565] (-) TimerEvent: {}
+[6.429887] (-) TimerEvent: {}
+[6.530221] (-) TimerEvent: {}
+[6.612369] (act_mov_pkg) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/act_mov_pkg__rosidl_generator_c.dir/rosidl_generator_c/act_mov_pkg/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[6.612811] (act_mov_pkg) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/act_mov_pkg__rosidl_generator_c.dir/rosidl_generator_c/act_mov_pkg/action/detail/navigate__description.c.o\x1b[0m\n'}
+[6.613066] (act_mov_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/act_mov_pkg__rosidl_generator_c.dir/rosidl_generator_c/act_mov_pkg/action/detail/navigate__functions.c.o\x1b[0m\n'}
+[6.621849] (act_mov_pkg) StdoutLine: {'line': b'[ 16%] Built target act_mov_pkg__cpp\n'}
+[6.630362] (-) TimerEvent: {}
+[6.730629] (-) TimerEvent: {}
+[6.830958] (-) TimerEvent: {}
+[6.845154] (act_mov_pkg) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libact_mov_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[6.912262] (act_mov_pkg) StdoutLine: {'line': b'[ 19%] Built target act_mov_pkg__rosidl_generator_c\n'}
+[6.933074] (-) TimerEvent: {}
+[6.934683] (act_mov_pkg) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.935401] (act_mov_pkg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.936607] (act_mov_pkg) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.939988] (act_mov_pkg) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.942952] (act_mov_pkg) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.948576] (act_mov_pkg) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.034610] (-) TimerEvent: {}
+[7.134985] (-) TimerEvent: {}
+[7.235384] (-) TimerEvent: {}
+[7.335763] (-) TimerEvent: {}
+[7.437618] (-) TimerEvent: {}
+[7.538617] (-) TimerEvent: {}
+[7.639587] (-) TimerEvent: {}
+[7.742205] (-) TimerEvent: {}
+[7.844192] (-) TimerEvent: {}
+[7.922742] (act_mov_pkg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/act_mov_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/act_mov_pkg/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[7.944301] (-) TimerEvent: {}
+[7.987828] (act_mov_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/act_mov_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/act_mov_pkg/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.048209] (-) TimerEvent: {}
+[8.148746] (-) TimerEvent: {}
+[8.202057] (act_mov_pkg) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libact_mov_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.213841] (act_mov_pkg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/act_mov_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/act_mov_pkg/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[8.221577] (act_mov_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/act_mov_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/act_mov_pkg/action/detail/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.248834] (-) TimerEvent: {}
+[8.321701] (act_mov_pkg) StdoutLine: {'line': b'[ 50%] Built target act_mov_pkg__rosidl_typesupport_c\n'}
+[8.348969] (-) TimerEvent: {}
+[8.449645] (-) TimerEvent: {}
+[8.503563] (act_mov_pkg) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libact_mov_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.550015] (-) TimerEvent: {}
+[8.582325] (act_mov_pkg) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/act_mov_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/act_mov_pkg/action/detail/dds_fastrtps/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.587425] (act_mov_pkg) StdoutLine: {'line': b'[ 55%] Built target act_mov_pkg__rosidl_typesupport_introspection_c\n'}
+[8.650665] (-) TimerEvent: {}
+[8.750708] (act_mov_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/act_mov_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/act_mov_pkg/action/detail/navigate__type_support_c.cpp.o\x1b[0m\n'}
+[8.751044] (-) TimerEvent: {}
+[8.851348] (-) TimerEvent: {}
+[8.953382] (-) TimerEvent: {}
+[9.053893] (-) TimerEvent: {}
+[9.164742] (-) TimerEvent: {}
+[9.265251] (-) TimerEvent: {}
+[9.366636] (-) TimerEvent: {}
+[9.467132] (-) TimerEvent: {}
+[9.567602] (-) TimerEvent: {}
+[9.668048] (-) TimerEvent: {}
+[9.725174] (act_mov_pkg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libact_mov_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.768441] (-) TimerEvent: {}
+[9.869931] (-) TimerEvent: {}
+[9.884451] (act_mov_pkg) StdoutLine: {'line': b'[ 61%] Built target act_mov_pkg__rosidl_typesupport_cpp\n'}
+[9.970062] (-) TimerEvent: {}
+[9.975928] (act_mov_pkg) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libact_mov_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.070202] (-) TimerEvent: {}
+[10.152041] (act_mov_pkg) StdoutLine: {'line': b'[ 63%] Built target act_mov_pkg__rosidl_typesupport_introspection_cpp\n'}
+[10.164542] (act_mov_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libact_mov_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.170321] (-) TimerEvent: {}
+[10.268254] (act_mov_pkg) StdoutLine: {'line': b'[ 66%] Built target act_mov_pkg__rosidl_typesupport_fastrtps_c\n'}
+[10.270408] (-) TimerEvent: {}
+[10.370744] (-) TimerEvent: {}
+[10.471149] (-) TimerEvent: {}
+[10.571505] (-) TimerEvent: {}
+[10.672150] (-) TimerEvent: {}
+[10.755865] (act_mov_pkg) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libact_mov_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.772252] (-) TimerEvent: {}
+[10.861968] (act_mov_pkg) StdoutLine: {'line': b'[ 69%] Built target act_mov_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[10.872348] (-) TimerEvent: {}
+[10.880684] (act_mov_pkg) StdoutLine: {'line': b'[ 69%] Built target act_mov_pkg\n'}
+[10.908456] (act_mov_pkg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o\x1b[0m\n'}
+[10.910226] (act_mov_pkg) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.972479] (-) TimerEvent: {}
+[11.072794] (-) TimerEvent: {}
+[11.173081] (-) TimerEvent: {}
+[11.273412] (-) TimerEvent: {}
+[11.373744] (-) TimerEvent: {}
+[11.431474] (act_mov_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/src/act_mov_pkg/src/action_server.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kact_mov_pkg/action/Navigate.h: No such file or directory\n'}
+[11.431704] (act_mov_pkg) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K"act_mov_pkg/action/Navigate.h"\x1b[m\x1b[K\n'}
+[11.431805] (act_mov_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.431891] (act_mov_pkg) StderrLine: {'line': b'compilation terminated.\n'}
+[11.435766] (act_mov_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1\n'}
+[11.436034] (act_mov_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/action_server.dir/all] Error 2\n'}
+[11.436144] (act_mov_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[11.473847] (-) TimerEvent: {}
+[11.574143] (-) TimerEvent: {}
+[11.674407] (-) TimerEvent: {}
+[11.774684] (-) TimerEvent: {}
+[11.874995] (-) TimerEvent: {}
+[11.976838] (-) TimerEvent: {}
+[12.001438] (act_mov_pkg) StdoutLine: {'line': b'[ 75%] Built target act_mov_pkg__py\n'}
+[12.002939] (act_mov_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.004927] (act_mov_pkg) CommandEnded: {'returncode': 2}
+[12.018461] (act_mov_pkg) JobEnded: {'identifier': 'act_mov_pkg', 'rc': 2}
+[12.029045] (-) EventReactorShutdown: {}

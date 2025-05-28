@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "act_mov_interfaces/action/Navigate_Feedback",
+      "fields": [
+        {
+          "name": "distance_to_point",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "act_mov_interfaces/action/Navigate_Feedback",
+      "hash_string": "RIHS01_6ddf0ed17ef43a3c66b3e6290e1c0ee8ab573bd461f5b8890053ba68e1f20ff7"
+    }
+  ]
+}

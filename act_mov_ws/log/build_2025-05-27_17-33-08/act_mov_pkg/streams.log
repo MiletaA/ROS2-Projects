@@ -1,0 +1,32 @@
+[0.016s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/src/act_mov_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg
+[0.077s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.233s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.256s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.318s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.338s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.512s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.516s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.750s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.821s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.844s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.868s] -- Found act_mov_interfaces: 0.0.1 (/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake)
+[0.905s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[0.905s]   add_executable cannot create target "action_server" because another target
+[0.905s]   with the same name already exists.  The existing target is an executable
+[0.905s]   created in source directory
+[0.905s]   "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/src/act_mov_pkg".  See
+[0.905s]   documentation for policy CMP0002 for more details.
+[0.905s] 
+[0.905s] [0m
+[0.907s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[0.907s]   ament_cmake_symlink_install_targets() 'action_client' is not a target
+[0.907s] Call Stack (most recent call first):
+[0.907s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[0.908s]   CMakeLists.txt:30 (install)
+[0.908s] 
+[0.908s] [0m
+[0.908s] -- Configuring incomplete, errors occurred!
+[0.920s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/src/act_mov_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg

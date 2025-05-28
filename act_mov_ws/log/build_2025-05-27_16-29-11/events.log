@@ -1,0 +1,376 @@
+[0.000000] (-) TimerEvent: {}
+[0.000910] (-) JobUnselected: {'identifier': 'act_mov_pkg'}
+[0.001213] (act_mov_interfaces) JobQueued: {'identifier': 'act_mov_interfaces', 'dependencies': OrderedDict()}
+[0.001674] (act_mov_interfaces) JobStarted: {'identifier': 'act_mov_interfaces'}
+[0.015687] (act_mov_interfaces) JobProgress: {'identifier': 'act_mov_interfaces', 'progress': 'cmake'}
+[0.016436] (act_mov_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/src/act_mov_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'windsurf.desktop', 'TERM_PROGRAM_VERSION': '1.99.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/windsurf.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/windsurf/windsurf', 'MANAGERPID': '2505', 'SYSTEMD_EXEC_PID': '2816', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '194676', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:22297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2758,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2758', 'INVOCATION_ID': '1176802943164b54a197568c1259e6ac', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MEJB72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c8755bd90.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099644] (-) TimerEvent: {}
+[0.135806] (act_mov_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199762] (-) TimerEvent: {}
+[0.222240] (act_mov_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.249936] (act_mov_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299934] (-) TimerEvent: {}
+[0.381421] (act_mov_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.398333] (act_mov_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.398976] (act_mov_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.399795] (act_mov_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.400000] (-) TimerEvent: {}
+[0.412604] (act_mov_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.504154] (-) TimerEvent: {}
+[0.604646] (-) TimerEvent: {}
+[0.617031] (act_mov_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.658046] (act_mov_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.658737] (act_mov_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.660006] (act_mov_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.672688] (act_mov_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.704792] (-) TimerEvent: {}
+[0.805132] (-) TimerEvent: {}
+[0.884589] (act_mov_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.905266] (-) TimerEvent: {}
+[1.005655] (-) TimerEvent: {}
+[1.052962] (act_mov_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.060721] (act_mov_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.105775] (-) TimerEvent: {}
+[1.140727] (act_mov_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205905] (-) TimerEvent: {}
+[1.230720] (act_mov_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.237536] (act_mov_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.305996] (-) TimerEvent: {}
+[1.334118] (act_mov_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[1.406127] (-) TimerEvent: {}
+[1.506467] (-) TimerEvent: {}
+[1.609280] (-) TimerEvent: {}
+[1.709683] (-) TimerEvent: {}
+[1.810053] (-) TimerEvent: {}
+[1.910533] (-) TimerEvent: {}
+[2.010829] (-) TimerEvent: {}
+[2.111122] (-) TimerEvent: {}
+[2.211418] (-) TimerEvent: {}
+[2.311685] (-) TimerEvent: {}
+[2.411988] (-) TimerEvent: {}
+[2.418061] (act_mov_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.512117] (-) TimerEvent: {}
+[2.612469] (-) TimerEvent: {}
+[2.712766] (-) TimerEvent: {}
+[2.813160] (-) TimerEvent: {}
+[2.913482] (-) TimerEvent: {}
+[3.013757] (-) TimerEvent: {}
+[3.114052] (-) TimerEvent: {}
+[3.186793] (act_mov_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.214170] (-) TimerEvent: {}
+[3.314448] (-) TimerEvent: {}
+[3.414812] (-) TimerEvent: {}
+[3.515080] (-) TimerEvent: {}
+[3.615367] (-) TimerEvent: {}
+[3.715803] (-) TimerEvent: {}
+[3.816084] (-) TimerEvent: {}
+[3.916367] (-) TimerEvent: {}
+[4.016653] (-) TimerEvent: {}
+[4.117009] (-) TimerEvent: {}
+[4.183386] (act_mov_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.186864] (act_mov_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.217116] (-) TimerEvent: {}
+[4.317444] (-) TimerEvent: {}
+[4.393020] (act_mov_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.417534] (-) TimerEvent: {}
+[4.517816] (-) TimerEvent: {}
+[4.618081] (-) TimerEvent: {}
+[4.718445] (-) TimerEvent: {}
+[4.818742] (-) TimerEvent: {}
+[4.919043] (-) TimerEvent: {}
+[4.964137] (act_mov_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.019142] (-) TimerEvent: {}
+[5.047461] (act_mov_interfaces) StdoutLine: {'line': b'-- Configuring done (5.0s)\n'}
+[5.101568] (act_mov_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.119307] (-) TimerEvent: {}
+[5.119919] (act_mov_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_interfaces\n'}
+[5.132903] (act_mov_interfaces) CommandEnded: {'returncode': 0}
+[5.134400] (act_mov_interfaces) JobProgress: {'identifier': 'act_mov_interfaces', 'progress': 'build'}
+[5.134582] (act_mov_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'windsurf.desktop', 'TERM_PROGRAM_VERSION': '1.99.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/windsurf.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/windsurf/windsurf', 'MANAGERPID': '2505', 'SYSTEMD_EXEC_PID': '2816', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '194676', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:22297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2758,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2758', 'INVOCATION_ID': '1176802943164b54a197568c1259e6ac', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MEJB72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c8755bd90.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.190227] (act_mov_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.199678] (act_mov_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_act_mov_interfaces\n'}
+[5.219433] (-) TimerEvent: {}
+[5.319811] (-) TimerEvent: {}
+[5.420531] (-) TimerEvent: {}
+[5.521528] (-) TimerEvent: {}
+[5.624516] (-) TimerEvent: {}
+[5.695360] (act_mov_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.698117] (act_mov_interfaces) StdoutLine: {'line': b'creating act_mov_interfaces.egg-info\n'}
+[5.724807] (-) TimerEvent: {}
+[5.757275] (act_mov_interfaces) StdoutLine: {'line': b'writing act_mov_interfaces.egg-info/PKG-INFO\n'}
+[5.758175] (act_mov_interfaces) StdoutLine: {'line': b'writing dependency_links to act_mov_interfaces.egg-info/dependency_links.txt\n'}
+[5.758433] (act_mov_interfaces) StdoutLine: {'line': b'writing top-level names to act_mov_interfaces.egg-info/top_level.txt\n'}
+[5.758631] (act_mov_interfaces) StdoutLine: {'line': b"writing manifest file 'act_mov_interfaces.egg-info/SOURCES.txt'\n"}
+[5.766188] (act_mov_interfaces) StdoutLine: {'line': b'[  2%] Built target act_mov_interfaces__rosidl_generator_type_description\n'}
+[5.796272] (act_mov_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.825793] (act_mov_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.826354] (-) TimerEvent: {}
+[5.914421] (act_mov_interfaces) StdoutLine: {'line': b"reading manifest file 'act_mov_interfaces.egg-info/SOURCES.txt'\n"}
+[5.915809] (act_mov_interfaces) StdoutLine: {'line': b"writing manifest file 'act_mov_interfaces.egg-info/SOURCES.txt'\n"}
+[5.926476] (-) TimerEvent: {}
+[5.982682] (act_mov_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_act_mov_interfaces_egg\n'}
+[6.026634] (-) TimerEvent: {}
+[6.127283] (-) TimerEvent: {}
+[6.227828] (-) TimerEvent: {}
+[6.328292] (-) TimerEvent: {}
+[6.428774] (-) TimerEvent: {}
+[6.529122] (-) TimerEvent: {}
+[6.629506] (-) TimerEvent: {}
+[6.730205] (-) TimerEvent: {}
+[6.750226] (act_mov_interfaces) StdoutLine: {'line': b'[  8%] Built target act_mov_interfaces__cpp\n'}
+[6.778634] (act_mov_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/act_mov_interfaces__rosidl_generator_c.dir/rosidl_generator_c/act_mov_interfaces/action/detail/navigate__description.c.o\x1b[0m\n'}
+[6.779028] (act_mov_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/act_mov_interfaces__rosidl_generator_c.dir/rosidl_generator_c/act_mov_interfaces/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[6.779218] (act_mov_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/act_mov_interfaces__rosidl_generator_c.dir/rosidl_generator_c/act_mov_interfaces/action/detail/navigate__functions.c.o\x1b[0m\n'}
+[6.830302] (-) TimerEvent: {}
+[6.930603] (-) TimerEvent: {}
+[7.009966] (act_mov_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libact_mov_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.030727] (-) TimerEvent: {}
+[7.068675] (act_mov_interfaces) StdoutLine: {'line': b'[ 20%] Built target act_mov_interfaces__rosidl_generator_c\n'}
+[7.089904] (act_mov_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.090459] (act_mov_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.090716] (act_mov_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.090904] (act_mov_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.092571] (act_mov_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.092963] (act_mov_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.130838] (-) TimerEvent: {}
+[7.231273] (-) TimerEvent: {}
+[7.333258] (-) TimerEvent: {}
+[7.433635] (-) TimerEvent: {}
+[7.533998] (-) TimerEvent: {}
+[7.634678] (-) TimerEvent: {}
+[7.737576] (-) TimerEvent: {}
+[7.838039] (-) TimerEvent: {}
+[7.938571] (-) TimerEvent: {}
+[8.041270] (-) TimerEvent: {}
+[8.141703] (-) TimerEvent: {}
+[8.202511] (act_mov_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/act_mov_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/act_mov_interfaces/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.244486] (-) TimerEvent: {}
+[8.250351] (act_mov_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/act_mov_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/act_mov_interfaces/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.344611] (-) TimerEvent: {}
+[8.369726] (act_mov_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libact_mov_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.444760] (-) TimerEvent: {}
+[8.537606] (act_mov_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/act_mov_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/act_mov_interfaces/action/detail/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.544282] (act_mov_interfaces) StdoutLine: {'line': b'[ 50%] Built target act_mov_interfaces__rosidl_typesupport_c\n'}
+[8.545255] (-) TimerEvent: {}
+[8.646085] (-) TimerEvent: {}
+[8.663393] (act_mov_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/act_mov_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/act_mov_interfaces/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[8.746356] (-) TimerEvent: {}
+[8.848427] (-) TimerEvent: {}
+[8.851700] (act_mov_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libact_mov_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.950747] (-) TimerEvent: {}
+[8.951157] (act_mov_interfaces) StdoutLine: {'line': b'[ 55%] Built target act_mov_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.050872] (-) TimerEvent: {}
+[9.089268] (act_mov_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/act_mov_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/act_mov_interfaces/action/detail/navigate__type_support_c.cpp.o\x1b[0m\n'}
+[9.092262] (act_mov_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/act_mov_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/act_mov_interfaces/action/detail/dds_fastrtps/navigate__type_support.cpp.o\x1b[0m\n'}
+[9.151048] (-) TimerEvent: {}
+[9.251577] (-) TimerEvent: {}
+[9.356381] (-) TimerEvent: {}
+[9.457062] (-) TimerEvent: {}
+[9.557890] (-) TimerEvent: {}
+[9.659846] (-) TimerEvent: {}
+[9.763299] (-) TimerEvent: {}
+[9.864240] (-) TimerEvent: {}
+[9.964705] (-) TimerEvent: {}
+[10.065670] (-) TimerEvent: {}
+[10.166278] (-) TimerEvent: {}
+[10.177783] (act_mov_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libact_mov_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.266394] (-) TimerEvent: {}
+[10.334674] (act_mov_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libact_mov_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.351736] (act_mov_interfaces) StdoutLine: {'line': b'[ 67%] Built target act_mov_interfaces__rosidl_typesupport_cpp\n'}
+[10.366533] (-) TimerEvent: {}
+[10.466971] (-) TimerEvent: {}
+[10.523263] (act_mov_interfaces) StdoutLine: {'line': b'[ 67%] Built target act_mov_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.567105] (-) TimerEvent: {}
+[10.574900] (act_mov_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libact_mov_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.667253] (-) TimerEvent: {}
+[10.685284] (act_mov_interfaces) StdoutLine: {'line': b'[ 70%] Built target act_mov_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.767400] (-) TimerEvent: {}
+[10.867766] (-) TimerEvent: {}
+[10.968133] (-) TimerEvent: {}
+[11.068602] (-) TimerEvent: {}
+[11.168978] (-) TimerEvent: {}
+[11.247283] (act_mov_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libact_mov_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.269085] (-) TimerEvent: {}
+[11.341803] (act_mov_interfaces) StdoutLine: {'line': b'[ 73%] Built target act_mov_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[11.360918] (act_mov_interfaces) StdoutLine: {'line': b'[ 73%] Built target act_mov_interfaces\n'}
+[11.369216] (-) TimerEvent: {}
+[11.384554] (act_mov_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.469250] (-) TimerEvent: {}
+[11.569554] (-) TimerEvent: {}
+[11.669967] (-) TimerEvent: {}
+[11.770275] (-) TimerEvent: {}
+[11.870671] (-) TimerEvent: {}
+[11.970987] (-) TimerEvent: {}
+[12.071259] (-) TimerEvent: {}
+[12.171521] (-) TimerEvent: {}
+[12.271827] (-) TimerEvent: {}
+[12.372141] (-) TimerEvent: {}
+[12.450107] (act_mov_interfaces) StdoutLine: {'line': b'[ 76%] Built target act_mov_interfaces__py\n'}
+[12.469296] (act_mov_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/act_mov_interfaces__rosidl_generator_py.dir/rosidl_generator_py/act_mov_interfaces/action/_navigate_s.c.o\x1b[0m\n'}
+[12.472257] (-) TimerEvent: {}
+[12.572531] (-) TimerEvent: {}
+[12.672882] (-) TimerEvent: {}
+[12.769244] (act_mov_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libact_mov_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[12.772982] (-) TimerEvent: {}
+[12.857293] (act_mov_interfaces) StdoutLine: {'line': b'[ 82%] Built target act_mov_interfaces__rosidl_generator_py\n'}
+[12.873125] (-) TimerEvent: {}
+[12.893655] (act_mov_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/act_mov_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/act_mov_interfaces/_act_mov_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.901276] (act_mov_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/act_mov_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/act_mov_interfaces/_act_mov_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.902621] (act_mov_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/act_mov_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/act_mov_interfaces/_act_mov_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.973266] (-) TimerEvent: {}
+[13.073820] (-) TimerEvent: {}
+[13.154051] (act_mov_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.163845] (act_mov_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.173978] (-) TimerEvent: {}
+[13.185443] (act_mov_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.219155] (act_mov_interfaces) StdoutLine: {'line': b'[100%] Built target act_mov_interfaces_s__rosidl_typesupport_c\n'}
+[13.242615] (act_mov_interfaces) StdoutLine: {'line': b'[100%] Built target act_mov_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[13.249948] (act_mov_interfaces) StdoutLine: {'line': b'[100%] Built target act_mov_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[13.267344] (act_mov_interfaces) CommandEnded: {'returncode': 0}
+[13.268420] (act_mov_interfaces) JobProgress: {'identifier': 'act_mov_interfaces', 'progress': 'install'}
+[13.274123] (-) TimerEvent: {}
+[13.282848] (act_mov_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_interfaces'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'windsurf.desktop', 'TERM_PROGRAM_VERSION': '1.99.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/windsurf.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/windsurf/windsurf', 'MANAGERPID': '2505', 'SYSTEMD_EXEC_PID': '2816', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '194676', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:22297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2758,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2758', 'INVOCATION_ID': '1176802943164b54a197568c1259e6ac', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MEJB72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c8755bd90.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.302087] (act_mov_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.303461] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/ament_index/resource_index/rosidl_interfaces/act_mov_interfaces\n'}
+[13.303792] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/action/Navigate.json\n'}
+[13.304401] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces\n'}
+[13.306974] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action\n'}
+[13.307272] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/navigate.h\n'}
+[13.307517] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail\n'}
+[13.307746] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__type_support.c\n'}
+[13.307975] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__type_support.h\n'}
+[13.308209] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__functions.h\n'}
+[13.308451] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__functions.c\n'}
+[13.308698] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__description.c\n'}
+[13.308948] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__struct.h\n'}
+[13.309185] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/msg\n'}
+[13.318895] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.323701] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/environment/library_path.sh\n'}
+[13.324156] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/environment/library_path.dsv\n'}
+[13.324439] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_generator_c.so\n'}
+[13.324591] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.324799] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces\n'}
+[13.325032] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action\n'}
+[13.325293] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail\n'}
+[13.325519] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__rosidl_typesupport_fastrtps_c.h\n'}
+[13.325729] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/msg\n'}
+[13.325957] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.326204] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.326438] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.326639] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces\n'}
+[13.326845] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action\n'}
+[13.327048] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail\n'}
+[13.327364] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__type_support.c\n'}
+[13.327600] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__rosidl_typesupport_introspection_c.h\n'}
+[13.327804] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/msg\n'}
+[13.327996] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.328128] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.328270] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.328405] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_c.so\n'}
+[13.328545] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.328713] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces\n'}
+[13.328847] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action\n'}
+[13.328987] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/navigate.hpp\n'}
+[13.329235] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail\n'}
+[13.329519] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__traits.hpp\n'}
+[13.329805] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__type_support.hpp\n'}
+[13.330065] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__struct.hpp\n'}
+[13.330458] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__builder.hpp\n'}
+[13.330727] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/msg\n'}
+[13.330981] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.331232] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces\n'}
+[13.331478] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action\n'}
+[13.331704] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail\n'}
+[13.331933] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.332181] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/dds_fastrtps\n'}
+[13.332454] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/msg\n'}
+[13.332698] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.332969] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.333623] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.333928] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces\n'}
+[13.334156] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action\n'}
+[13.334390] (act_mov_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail\n'}
+[13.334591] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.334798] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/include/act_mov_interfaces/act_mov_interfaces/action/detail/navigate__type_support.cpp\n'}
+[13.335018] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.335267] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.335527] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.335772] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.336180] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/environment/pythonpath.sh\n'}
+[13.337648] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/environment/pythonpath.dsv\n'}
+[13.339264] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces-0.0.1-py3.12.egg-info\n'}
+[13.339620] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[13.339941] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[13.341634] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[13.342116] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[13.342432] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces\n'}
+[13.342726] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/_act_mov_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.343008] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/_act_mov_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[13.343304] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/action\n'}
+[13.343563] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/action/_navigate.py\n'}
+[13.343768] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/action/__init__.py\n'}
+[13.344001] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/action/_navigate_s.c\n'}
+[13.344178] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/__init__.py\n'}
+[13.344486] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[13.344648] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[13.344782] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/_act_mov_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.344920] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_c.so\n'}
+[13.374218] (-) TimerEvent: {}
+[13.413813] (act_mov_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces'...\n"}
+[13.414016] (act_mov_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/__init__.py'...\n"}
+[13.414100] (act_mov_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/action'...\n"}
+[13.414174] (act_mov_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/action/__init__.py'...\n"}
+[13.414261] (act_mov_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/action/_navigate.py'...\n"}
+[13.422779] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[13.423273] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.423656] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[13.423957] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.424318] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_c.so\n'}
+[13.424776] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages/act_mov_interfaces/act_mov_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[13.425059] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_generator_py.so\n'}
+[13.425421] (act_mov_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/libact_mov_interfaces__rosidl_generator_py.so" to ""\n'}
+[13.425649] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/action/Navigate.idl\n'}
+[13.425853] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/action/Navigate.action\n'}
+[13.426071] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/ament_index/resource_index/package_run_dependencies/act_mov_interfaces\n'}
+[13.426524] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/ament_index/resource_index/parent_prefix_path/act_mov_interfaces\n'}
+[13.426761] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/environment/ament_prefix_path.sh\n'}
+[13.426986] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.427241] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/environment/path.sh\n'}
+[13.427495] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/environment/path.dsv\n'}
+[13.427719] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/local_setup.bash\n'}
+[13.427954] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/local_setup.sh\n'}
+[13.428152] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/local_setup.zsh\n'}
+[13.428498] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/local_setup.dsv\n'}
+[13.428716] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/package.dsv\n'}
+[13.428933] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/ament_index/resource_index/packages/act_mov_interfaces\n'}
+[13.429268] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/export_act_mov_interfaces__rosidl_generator_cExport.cmake\n'}
+[13.429563] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/export_act_mov_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.429803] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/export_act_mov_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.430043] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/export_act_mov_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.430378] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/act_mov_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.430662] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/act_mov_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.430902] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/act_mov_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[13.431142] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/act_mov_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.431486] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/export_act_mov_interfaces__rosidl_generator_cppExport.cmake\n'}
+[13.431724] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/export_act_mov_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.431923] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/export_act_mov_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.432121] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/act_mov_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.432395] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/act_mov_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.432590] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/act_mov_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[13.432781] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/act_mov_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.432973] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/export_act_mov_interfaces__rosidl_generator_pyExport.cmake\n'}
+[13.433456] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/export_act_mov_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.433803] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[13.434082] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.434383] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.434584] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.434791] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.435010] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.435230] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.435422] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/act_mov_interfacesConfig.cmake\n'}
+[13.435603] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake/act_mov_interfacesConfig-version.cmake\n'}
+[13.435779] (act_mov_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/package.xml\n'}
+[13.438138] (act_mov_interfaces) CommandEnded: {'returncode': 0}
+[13.474398] (-) TimerEvent: {}
+[13.481659] (act_mov_interfaces) JobEnded: {'identifier': 'act_mov_interfaces', 'rc': 0}
+[13.482633] (-) EventReactorShutdown: {}

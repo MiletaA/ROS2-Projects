@@ -1,0 +1,25 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable action_client[0m
+[ 75%] Built target action_client
+[100%] [32m[1mLinking CXX executable action_server[0m
+[100%] Built target action_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/lib/act_mov_pkg/action_server
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/lib/act_mov_pkg/action_client
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/package_run_dependencies/act_mov_pkg
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/parent_prefix_path/act_mov_pkg
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/path.sh
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/path.dsv
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.bash
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.sh
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.zsh
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.dsv
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/package.dsv
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/packages/act_mov_pkg
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/cmake/act_mov_pkgConfig.cmake
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/cmake/act_mov_pkgConfig-version.cmake
+-- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/package.xml

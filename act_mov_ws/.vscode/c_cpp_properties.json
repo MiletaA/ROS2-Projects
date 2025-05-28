@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/jazzy/include/**",
+                "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/src/act_mov_pkg/include/**",
+                "/usr/include/**",
+                "/opt/ros/jazzy/include/rclcpp_action",
+                "${workspaceFolder}/build/act_mov_pkg/rosidl_generator_cpp"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

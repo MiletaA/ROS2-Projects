@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "act_mov_interfaces__py",
+		"source" : "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_interfaces/act_mov_interfaces__py"
+	}
+}

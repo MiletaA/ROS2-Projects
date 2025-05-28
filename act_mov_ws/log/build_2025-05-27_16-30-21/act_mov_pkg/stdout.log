@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable action_server[0m
+[100%] Built target action_server
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/lib/act_mov_pkg/action_server
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/lib/act_mov_pkg/action_server" to ""
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/package_run_dependencies/act_mov_pkg
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/parent_prefix_path/act_mov_pkg
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/path.sh
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/path.dsv
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.bash
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.sh
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.zsh
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.dsv
+-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/package.dsv
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/packages/act_mov_pkg
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/cmake/act_mov_pkgConfig.cmake
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/cmake/act_mov_pkgConfig-version.cmake
+-- Up-to-date: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/package.xml

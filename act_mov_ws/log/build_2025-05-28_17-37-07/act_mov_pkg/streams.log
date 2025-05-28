@@ -1,0 +1,29 @@
+[0.011s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg -- -j8 -l8
+[0.083s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[4.877s] [ 75%] [32m[1mLinking CXX executable action_client[0m
+[5.156s] [ 75%] Built target action_client
+[8.920s] [100%] [32m[1mLinking CXX executable action_server[0m
+[9.304s] [100%] Built target action_server
+[9.312s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg -- -j8 -l8
+[9.314s] Invoking command in '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg
+[9.322s] -- Install configuration: ""
+[9.322s] -- Execute custom install script
+[9.322s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/lib/act_mov_pkg/action_server
+[9.331s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/lib/act_mov_pkg/action_client
+[9.339s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/package_run_dependencies/act_mov_pkg
+[9.347s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/parent_prefix_path/act_mov_pkg
+[9.357s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/ament_prefix_path.sh
+[9.366s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/ament_prefix_path.dsv
+[9.373s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/path.sh
+[9.380s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/path.dsv
+[9.387s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.bash
+[9.395s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.sh
+[9.401s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.zsh
+[9.410s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.dsv
+[9.417s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/package.dsv
+[9.426s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/packages/act_mov_pkg
+[9.435s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/cmake/act_mov_pkgConfig.cmake
+[9.446s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/cmake/act_mov_pkgConfig-version.cmake
+[9.453s] -- Symlinking: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/package.xml
+[9.461s] Invoked command in '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg

@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000369] (-) JobUnselected: {'identifier': 'act_mov_interfaces'}
+[0.000643] (act_mov_pkg) JobQueued: {'identifier': 'act_mov_pkg', 'dependencies': OrderedDict()}
+[0.000679] (act_mov_pkg) JobStarted: {'identifier': 'act_mov_pkg'}
+[0.008992] (act_mov_pkg) JobProgress: {'identifier': 'act_mov_pkg', 'progress': 'cmake'}
+[0.009804] (act_mov_pkg) JobProgress: {'identifier': 'act_mov_pkg', 'progress': 'build'}
+[0.010678] (act_mov_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'windsurf.desktop', 'TERM_PROGRAM_VERSION': '1.99.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/windsurf.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/windsurf/windsurf', 'MANAGERPID': '2505', 'SYSTEMD_EXEC_PID': '2816', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '194676', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:22297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2758,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2758', 'INVOCATION_ID': '1176802943164b54a197568c1259e6ac', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MEJB72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c8755bd90.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.048971] (act_mov_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.091648] (act_mov_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.099825] (-) TimerEvent: {}
+[0.200268] (-) TimerEvent: {}
+[0.222313] (act_mov_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.273855] (act_mov_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.289314] (act_mov_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.300372] (-) TimerEvent: {}
+[0.307773] (act_mov_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.329985] (act_mov_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.401276] (-) TimerEvent: {}
+[0.502411] (-) TimerEvent: {}
+[0.539732] (act_mov_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.545318] (act_mov_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.602542] (-) TimerEvent: {}
+[0.668080] (act_mov_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.702641] (-) TimerEvent: {}
+[0.762057] (act_mov_pkg) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[0.802766] (-) TimerEvent: {}
+[0.806954] (act_mov_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.827868] (act_mov_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.852276] (act_mov_pkg) StdoutLine: {'line': b'-- Found act_mov_interfaces: 0.0.1 (/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/share/act_mov_interfaces/cmake)\n'}
+[0.881495] (act_mov_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.902852] (-) TimerEvent: {}
+[0.990597] (act_mov_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.990822] (act_mov_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.990914] (act_mov_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.991507] (act_mov_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.992565] (act_mov_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.992708] (act_mov_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.993062] (act_mov_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.994779] (act_mov_pkg) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.002983] (-) TimerEvent: {}
+[1.016198] (act_mov_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.022353] (act_mov_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg\n'}
+[1.063797] (act_mov_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o\x1b[0m\n'}
+[1.103089] (-) TimerEvent: {}
+[1.203476] (-) TimerEvent: {}
+[1.303852] (-) TimerEvent: {}
+[1.404253] (-) TimerEvent: {}
+[1.504627] (-) TimerEvent: {}
+[1.604947] (-) TimerEvent: {}
+[1.705245] (-) TimerEvent: {}
+[1.805554] (-) TimerEvent: {}
+[1.905945] (-) TimerEvent: {}
+[2.006242] (-) TimerEvent: {}
+[2.106582] (-) TimerEvent: {}
+[2.206869] (-) TimerEvent: {}
+[2.307255] (-) TimerEvent: {}
+[2.407577] (-) TimerEvent: {}
+[2.507862] (-) TimerEvent: {}
+[2.608150] (-) TimerEvent: {}
+[2.708464] (-) TimerEvent: {}
+[2.808712] (-) TimerEvent: {}
+[2.909040] (-) TimerEvent: {}
+[3.009378] (-) TimerEvent: {}
+[3.109738] (-) TimerEvent: {}
+[3.210077] (-) TimerEvent: {}
+[3.310359] (-) TimerEvent: {}
+[3.410624] (-) TimerEvent: {}
+[3.510907] (-) TimerEvent: {}
+[3.588901] (act_mov_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/src/act_mov_pkg/src/action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse NavigateActionServerNode::\x1b[01;32m\x1b[Khandle_cancel\x1b[m\x1b[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<act_mov_interfaces::action::Navigate> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.589071] (act_mov_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/src/act_mov_pkg/src/action_server.cpp:42:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.589133] (act_mov_pkg) StderrLine: {'line': b'   42 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[3.589197] (act_mov_pkg) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.611022] (-) TimerEvent: {}
+[3.711383] (-) TimerEvent: {}
+[3.811731] (-) TimerEvent: {}
+[3.912080] (-) TimerEvent: {}
+[4.012529] (-) TimerEvent: {}
+[4.112925] (-) TimerEvent: {}
+[4.213263] (-) TimerEvent: {}
+[4.314241] (-) TimerEvent: {}
+[4.414537] (-) TimerEvent: {}
+[4.514802] (-) TimerEvent: {}
+[4.615096] (-) TimerEvent: {}
+[4.715400] (-) TimerEvent: {}
+[4.815810] (-) TimerEvent: {}
+[4.916114] (-) TimerEvent: {}
+[5.016483] (-) TimerEvent: {}
+[5.116766] (-) TimerEvent: {}
+[5.217072] (-) TimerEvent: {}
+[5.317879] (-) TimerEvent: {}
+[5.418203] (-) TimerEvent: {}
+[5.518449] (-) TimerEvent: {}
+[5.618699] (-) TimerEvent: {}
+[5.718988] (-) TimerEvent: {}
+[5.819333] (-) TimerEvent: {}
+[5.919631] (-) TimerEvent: {}
+[6.019986] (-) TimerEvent: {}
+[6.120263] (-) TimerEvent: {}
+[6.220579] (-) TimerEvent: {}
+[6.320926] (-) TimerEvent: {}
+[6.421282] (-) TimerEvent: {}
+[6.521643] (-) TimerEvent: {}
+[6.621913] (-) TimerEvent: {}
+[6.722269] (-) TimerEvent: {}
+[6.822643] (-) TimerEvent: {}
+[6.922949] (-) TimerEvent: {}
+[7.023269] (-) TimerEvent: {}
+[7.123554] (-) TimerEvent: {}
+[7.223824] (-) TimerEvent: {}
+[7.324111] (-) TimerEvent: {}
+[7.424426] (-) TimerEvent: {}
+[7.524721] (-) TimerEvent: {}
+[7.625040] (-) TimerEvent: {}
+[7.725421] (-) TimerEvent: {}
+[7.825955] (-) TimerEvent: {}
+[7.926322] (-) TimerEvent: {}
+[8.026589] (-) TimerEvent: {}
+[8.126825] (-) TimerEvent: {}
+[8.227149] (-) TimerEvent: {}
+[8.327515] (-) TimerEvent: {}
+[8.427819] (-) TimerEvent: {}
+[8.528131] (-) TimerEvent: {}
+[8.628378] (-) TimerEvent: {}
+[8.728632] (-) TimerEvent: {}
+[8.828908] (-) TimerEvent: {}
+[8.929159] (-) TimerEvent: {}
+[9.029472] (-) TimerEvent: {}
+[9.129742] (-) TimerEvent: {}
+[9.230053] (-) TimerEvent: {}
+[9.330322] (-) TimerEvent: {}
+[9.430638] (-) TimerEvent: {}
+[9.460357] (act_mov_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_server\x1b[0m\n'}
+[9.530756] (-) TimerEvent: {}
+[9.631106] (-) TimerEvent: {}
+[9.731514] (-) TimerEvent: {}
+[9.831929] (-) TimerEvent: {}
+[9.932244] (-) TimerEvent: {}
+[9.997269] (act_mov_pkg) StdoutLine: {'line': b'[100%] Built target action_server\n'}
+[10.014152] (act_mov_pkg) CommandEnded: {'returncode': 0}
+[10.015129] (act_mov_pkg) JobProgress: {'identifier': 'act_mov_pkg', 'progress': 'install'}
+[10.026661] (act_mov_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg'], 'cwd': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'windsurf.desktop', 'TERM_PROGRAM_VERSION': '1.99.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/windsurf.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/windsurf/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/windsurf/windsurf', 'MANAGERPID': '2505', 'SYSTEMD_EXEC_PID': '2816', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '194676', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:22297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-Aspire-A515-56:@/tmp/.ICE-unix/2758,unix/ubuntu-Aspire-A515-56:/tmp/.ICE-unix/2758', 'INVOCATION_ID': '1176802943164b54a197568c1259e6ac', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MEJB72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c8755bd90.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.032370] (-) TimerEvent: {}
+[10.038956] (act_mov_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.039567] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/lib/act_mov_pkg/action_server\n'}
+[10.044231] (act_mov_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/lib/act_mov_pkg/action_server" to ""\n'}
+[10.044628] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/package_run_dependencies/act_mov_pkg\n'}
+[10.044878] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/parent_prefix_path/act_mov_pkg\n'}
+[10.045111] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/ament_prefix_path.sh\n'}
+[10.045356] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/ament_prefix_path.dsv\n'}
+[10.045599] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/path.sh\n'}
+[10.046028] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/environment/path.dsv\n'}
+[10.046270] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.bash\n'}
+[10.046519] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.sh\n'}
+[10.046746] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.zsh\n'}
+[10.046984] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/local_setup.dsv\n'}
+[10.047224] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/package.dsv\n'}
+[10.047483] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/ament_index/resource_index/packages/act_mov_pkg\n'}
+[10.047727] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/cmake/act_mov_pkgConfig.cmake\n'}
+[10.047961] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/cmake/act_mov_pkgConfig-version.cmake\n'}
+[10.048209] (act_mov_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/install/act_mov_pkg/share/act_mov_pkg/package.xml\n'}
+[10.051011] (act_mov_pkg) CommandEnded: {'returncode': 0}
+[10.071870] (act_mov_pkg) JobEnded: {'identifier': 'act_mov_pkg', 'rc': 0}
+[10.072912] (-) EventReactorShutdown: {}

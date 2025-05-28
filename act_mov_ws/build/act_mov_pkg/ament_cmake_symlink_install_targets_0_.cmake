@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg/action_server" "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/build/act_mov_pkg/action_client" "TARGETS" "action_server" "action_client" "DESTINATION" "lib/act_mov_pkg")

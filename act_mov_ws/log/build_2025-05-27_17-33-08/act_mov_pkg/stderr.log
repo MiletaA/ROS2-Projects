@@ -1,0 +1,15 @@
+[31mCMake Error at CMakeLists.txt:19 (add_executable):
+  add_executable cannot create target "action_server" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory
+  "/home/ubuntu/ROS2/ros_workspace_name/act_mov_ws/src/act_mov_pkg".  See
+  documentation for policy CMP0002 for more details.
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+  ament_cmake_symlink_install_targets() 'action_client' is not a target
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+  CMakeLists.txt:30 (install)
+
+[0m
